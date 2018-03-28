@@ -14,8 +14,5 @@ List of Block Producers for Scholar Testnet
 
 ## Sign up
 
-Submit your server credentials to:
-
-https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform
-
-Or submit a GitHub Pull Request.
+- [Submit your server credentials HERE](https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform).
+- Submit a GitHub Pull Request to this repo.
