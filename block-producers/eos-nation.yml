@@ -1,8 +1,8 @@
 name: EOS Nation
 website: https://eosnation.io
-logo:
+logo: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
 testnet: testnet.eosnation.io
 http: 443
 p2p: 9876
 telegram: DenisCarriere
-keybase: deniscarriere
+keybase: eosnation
