@@ -5,7 +5,7 @@ List of Block Producers for Scholar Testnet
 | Block Producer                       | Domain                    | SSL  | HTTP | P2P  | Telegram       | Keybase        |
 |--------------------------------------|---------------------------|------|------|------|----------------|----------------|
 | [EOS Nation](https://eosnation.io)   | testnet.eosnation.io      | yes  | 443  | 9876 | @DenisCarriere | @deniscarriere |
-| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io        | yes  | 443  | 9876 | @gmory         |
+| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io        | yes  | 443  | 9876 | @gmory         | @gmory
 | [Meet.one](https://meet.one/en)      | testnet.meet.one          | yes  | 443  | 9876 | @wuyahuang     |
 | [EOS Cannon](https://eoscannon.io)   | testnet.eoscannon.io      | yes  | 443  | 9999 | @Luckybean     |
 | [Coinstakes](https://coinstakes.io)  | eos.coinstakes.io         | yes  | 443  | 9876 | @timogilvie    |
