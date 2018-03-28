@@ -2,15 +2,23 @@
 
 List of Block Producers for Scholar Testnet
 
-| Block Producer                       | Domain                    | SSL  | HTTP | P2P  | Telegram       | Keybase        |
-|--------------------------------------|---------------------------|------|------|------|----------------|----------------|
-| [EOS Nation](https://eosnation.io)   | testnet.eosnation.io      | yes  | 443  | 9876 | @DenisCarriere | @deniscarriere |
-| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io        | yes  | 443  | 9876 | @gmory         | @gmory
-| [Meet.one](https://meet.one/en)      | testnet.meet.one          | yes  | 443  | 9876 | @wuyahuang     |
-| [EOS Cannon](https://eoscannon.io)   | testnet.eoscannon.io      | yes  | 443  | 9999 | @Luckybean     |
-| [Coinstakes](https://coinstakes.io)  | eos.coinstakes.io         | yes  | 443  | 9876 | @timogilvie    |
-| [EOS New York](http://eosnewyork.io) | scholar.eosnewyork.io     | no   | 8800 | 9874 | @deckw         |
-| [EOS Brazil](eosbrazil.com)          | eosbrazil.com             | no   | 9875 | 8887 | @zaratustra418 |
+## Requirements
+
+### Accounts:
+
+- [Keybase](https://keybase.io)
+- [Telegram](https://telegram.org)
+
+## Server Configurations:
+
+- Domain name associated with server (ex: scholarnet.<domain> )
+- SSL enabled (443 prefered, however other ports can be used)
+
+## Metadata:
+
+- Organization (BP name or Community name)
+- Website
+- Logo (small logo, 100x100 pixel)
 
 ## Sign up
 
@@ -23,3 +31,15 @@ There are two ways to sign up, **Google Form** or **GitHub Pull Request**:
 **GitHub**
 
 Submit a GitHub Pull Request to this repo.
+
+## Interested Communities/Organizations
+
+| Communities/Organization             | Server                                                    | Telegram       |
+|--------------------------------------|-----------------------------------------------------------|----------------|
+| [EOS Nation](https://eosnation.io)   | [testnet.eosnation.io](https://testnet.eosnation.io)      | [@DenisCarriere](https://t.me/DenisCarriere)
+| [EOSoCal](https://eosocal.io)        | [testnet.eosocal.io](https://testnet.eosocal.io)          | [@gmory](https://t.me/gmory)
+| [Meet.one](https://meet.one/en)      | [testnet.meet.one](https://testnet.meet.one)              | [@wuyahuang](https://t.me/wuyahuang)
+| [EOS Cannon](https://eoscannon.io)   | [testnet.eoscannon.io](https://testnet.eoscannon.io)      | [@Luckybean](https://t.me/Luckybean)
+| [Coinstakes](https://coinstakes.io)  | [eos.coinstakes.io](https://eos.coinstakes.io)            | [@timogilvie](https://t.me/timogilvie)
+| [EOS New York](http://eosnewyork.io) | [scholar.eosnewyork.io](https://scholar.eosnewyork.io)    | [@deckw](https://t.me/deckw)
+| [EOS Brazil](eosbrazil.com)          | [eosbrazil.com](https://eosbrazil.com)                    | [@zaratustra418](https://t.me/zaratustra418)
