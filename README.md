@@ -11,12 +11,12 @@ List of Block Producers for Scholar Testnet
 
 ## Server Configurations:
 
-- Domain name associated with server (ex: scholarnet.<domain> )
+- Domain name associated with server (ex: testnet.<domain> )
 - SSL enabled (443 prefered, however other ports can be used)
 
 ## Metadata:
 
-- Organization (BP name or Community name)
+- Organization/Community name
 - Website
 - Logo (small logo, 100x100 pixel)
 
@@ -32,14 +32,12 @@ There are two ways to sign up, **Google Form** or **GitHub Pull Request**:
 
 Submit a GitHub Pull Request to this repo.
 
-## Interested Communities/Organizations
+## Communities/Organizations
 
-| Communities/Organization             | Server                                                    | Telegram       |
-|--------------------------------------|-----------------------------------------------------------|----------------|
-| [EOS Nation](https://eosnation.io)   | [testnet.eosnation.io](https://testnet.eosnation.io)      | [@DenisCarriere](https://t.me/DenisCarriere)
-| [EOSoCal](https://eosocal.io)        | [testnet.eosocal.io](https://testnet.eosocal.io)          | [@gmory](https://t.me/gmory)
-| [Meet.one](https://meet.one/en)      | [testnet.meet.one](https://testnet.meet.one)              | [@wuyahuang](https://t.me/wuyahuang)
-| [EOS Cannon](https://eoscannon.io)   | [testnet.eoscannon.io](https://testnet.eoscannon.io)      | [@Luckybean](https://t.me/Luckybean)
-| [Coinstakes](https://coinstakes.io)  | [eos.coinstakes.io](https://eos.coinstakes.io)            | [@timogilvie](https://t.me/timogilvie)
-| [EOS New York](http://eosnewyork.io) | [scholar.eosnewyork.io](https://scholar.eosnewyork.io)    | [@deckw](https://t.me/deckw)
-| [EOS Brazil](eosbrazil.com)          | [eosbrazil.com](https://eosbrazil.com)                    | [@zaratustra418](https://t.me/zaratustra418)
+- [EOS Nation](block-producers/eos-nation.yml)
+- [EOSoCal](block-producers/eosocal.yml)
+- [Meet.one](block-producers/meet-one.yml)
+- [EOS Cannon](block-producers/eos-cannon.yml)
+- [Coinstakes](block-producers/coinstake.yml)
+- [EOS New York](block-producers/eos-new-york.yml)
+- [EOS Brazil](block-producers/eos-brazil.yml)

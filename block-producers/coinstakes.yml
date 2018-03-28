@@ -1,0 +1,8 @@
+name: Coinstakes
+website: https://coinstakes.io
+logo:
+testnet: eos.coinstakes.io
+http: 443
+p2p: 9876
+telegram: timogilvie
+keybase: timogilvie

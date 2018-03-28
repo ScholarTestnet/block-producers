@@ -1,0 +1,8 @@
+name: EOSoCal
+website: https://eosocal.io
+logo:
+testnet: testnet.eosocal.io
+http: 443
+p2p: 9876
+telegram: gmory
+keybase: gmory
