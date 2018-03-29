@@ -34,6 +34,9 @@ There are two ways to sign up:
 
 ## Communities/Organizations
 
+- ~[BitcoinEOS](block-producers/bitcoin-eos.yml)~
+  - missing keybase account
+  - missing domain name
 - [Coinstakes](block-producers/coinstakes.yml)
 - ~[Crypto Lions](block-producers/crypto-lions.yml)~
   - missing keybase account
@@ -51,7 +54,7 @@ There are two ways to sign up:
 - ~[EOS Union](block-producers/eos-union.yml)~
   - missing keybase account
   - missing domain name
-  - confirm personal telegram account (must not be group account)
+  - missing personal telegram account (must not be group account)
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
