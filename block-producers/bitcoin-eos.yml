@@ -1,8 +1,8 @@
-name: BitcoinEOS
+name: BitEOS
 website: http://bitcoineos.fun/
-logo:
-domain:
+logo: https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg
+domain: scholartnet.bitcoineos.fun
 http: 7070
 p2p: 7080
 telegram: steemalf
-keybase:
+keybase: aporeosoe
