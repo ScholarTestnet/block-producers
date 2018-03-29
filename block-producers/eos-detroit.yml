@@ -1,8 +1,8 @@
 name: EOS Detroit
 website:
 logo:
-testnet:
-http:
-p2p:
+domain:
+http: 8880
+p2p: 7777
 telegram: robrigo
 keybase: robrigo

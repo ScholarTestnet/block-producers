@@ -1,7 +1,7 @@
 name: EOSoCal
 website: https://eosocal.io
 logo: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png
-testnet: testnet.eosocal.io
+domain: testnet.eosocal.io
 http: 443
 p2p: 9876
 telegram: gmory

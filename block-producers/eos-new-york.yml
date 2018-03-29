@@ -1,7 +1,7 @@
 name: EOS New York
 website: http://eosnewyork.io
 logo:
-testnet: scholar.eosnewyork.io
+domain: scholar.eosnewyork.io
 http: 8800
 p2p: 9874
 telegram: deckw

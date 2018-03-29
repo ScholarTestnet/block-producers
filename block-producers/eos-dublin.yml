@@ -1,7 +1,7 @@
 name: EOS Dublin
 website: https://eosdublin.com
 logo:
-testnet: testnet.eosdublin.io
+domain: testnet.eosdublin.io
 http: 443
 p2p: 9876
 telegram: samnoble

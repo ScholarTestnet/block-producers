@@ -1,7 +1,7 @@
 name: MEET.ONE
 website: https://meet.one/en
 logo: https://meet.one/assets/MEET.png
-testnet: testnet.meet.one
+domain: testnet.meet.one
 http: 443
 p2p: 9876
 telegram: wuyahuang

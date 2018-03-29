@@ -1,7 +1,7 @@
 name: EOS Nairobi
 website: http://eosnairobi.io
 logo:
-testnet:
+domain:
 http: 8888
 p2p: 9876
 telegram: kiwi09
