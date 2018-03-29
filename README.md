@@ -11,7 +11,7 @@ List of Block Producers for Scholar Testnet
 
 ## Server Configurations:
 
-- Domain name associated with server (ex: testnet.<domain> )
+- Domain name associated with server (ex: `testnet.<domain>.io` )
 - SSL enabled (443 prefered, however other ports can be used)
 
 ## Metadata:
@@ -22,20 +22,21 @@ List of Block Producers for Scholar Testnet
 
 ## Sign up
 
-There are two ways to sign up, **Google Form** or **GitHub Pull Request**:
+There are two ways to sign up:
 
 ### Google Form
 
-[Submit your server credentials HERE](https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform).
+- [Submit your server credentials HERE](https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform).
 
 ### GitHub
 
-Submit a GitHub Pull Request to this repo.
+- Submit a GitHub Pull Request to this repo.
 
 ## Communities/Organizations
 
 - [Coinstakes](block-producers/coinstakes.yml)
-- [Crypto Lions](block-producers/crypto-lions.yml) *
+- ~[Crypto Lions](block-producers/crypto-lions.yml)~
+  - missing keybase account
 - [EOS Brazil](block-producers/eos-brazil.yml)
 - [EOS.Cafe Calgary](block-producers/eos-cafe-calgary.yml)
 - [EOS Cannon](block-producers/eos-cannon.yml)
@@ -44,8 +45,13 @@ Submit a GitHub Pull Request to this repo.
 - [EOS Nairobi](block-producers/eos-nairobi.yml)
 - [EOS Nation](block-producers/eos-nation.yml)
 - [EOS New York](block-producers/eos-new-york.yml)
-- [EOS Nottingham](block-producers/eos-nottingham.yml) **
-- [EOS Union](block-producers/eos-union.yml) ***
+- ~[EOS Nottingham](block-producers/eos-nottingham.yml)~
+  - missing domain name
+  - missing keybase account
+- ~[EOS Union](block-producers/eos-union.yml)~
+  - missing keybase account
+  - missing domain name
+  - confirm personal telegram account (must not be group account)
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
