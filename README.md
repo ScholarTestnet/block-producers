@@ -6,8 +6,8 @@ List of Block Producers for Scholar Testnet
 
 ### Accounts:
 
-- [Keybase](https://keybase.io)
-- [Telegram](https://telegram.org)
+- [Keybase](https://keybase.io) (must have a generated public key)
+- [Telegram](https://telegram.org) (must be a single username, not a group)
 
 ## Server Configurations:
 
@@ -34,8 +34,8 @@ Submit a GitHub Pull Request to this repo.
 
 ## Communities/Organizations
 
-- [Coinstakes](block-producers/coinstake.yml)
-- [Crypto Lions](block-producers/crypto-lions.yml)
+- [Coinstakes](block-producers/coinstakes.yml)
+- [Crypto Lions](block-producers/crypto-lions.yml) *
 - [EOS Brazil](block-producers/eos-brazil.yml)
 - [EOS.Cafe Calgary](block-producers/eos-cafe-calgary.yml)
 - [EOS Cannon](block-producers/eos-cannon.yml)
@@ -44,8 +44,8 @@ Submit a GitHub Pull Request to this repo.
 - [EOS Nairobi](block-producers/eos-nairobi.yml)
 - [EOS Nation](block-producers/eos-nation.yml)
 - [EOS New York](block-producers/eos-new-york.yml)
-- [EOS Nottingham](block-producers/eos-nottingham.yml)
-- [EOS Union](block-producers/eos-union.yml)
+- [EOS Nottingham](block-producers/eos-nottingham.yml) **
+- [EOS Union](block-producers/eos-union.yml) ***
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
