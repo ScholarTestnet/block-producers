@@ -1,8 +1,8 @@
 name: EOS.Cafe Calgary
-website:
+website: https://eos.cafe
 logo:
-domain:
-http:
-p2p:
+domain: eoscalgary.com
+http: 8889
+p2p: 9877
 telegram: n_doy
 keybase: eoscalgary
