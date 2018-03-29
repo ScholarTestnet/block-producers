@@ -24,11 +24,11 @@ List of Block Producers for Scholar Testnet
 
 There are two ways to sign up, **Google Form** or **GitHub Pull Request**:
 
-**Google Form**
+### Google Form
 
 [Submit your server credentials HERE](https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform).
 
-**GitHub**
+### GitHub
 
 Submit a GitHub Pull Request to this repo.
 
