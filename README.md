@@ -45,6 +45,7 @@ Submit a GitHub Pull Request to this repo.
 - [EOS Nation](block-producers/eos-nation.yml)
 - [EOS New York](block-producers/eos-new-york.yml)
 - [EOS Nottingham](block-producers/eos-nottingham.yml)
+- [EOS Union](block-producers/eos-union.yml)
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
