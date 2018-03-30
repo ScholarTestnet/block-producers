@@ -34,9 +34,7 @@ There are two ways to sign up:
 
 ## Communities/Organizations
 
-- ~[BitcoinEOS](block-producers/bitcoin-eos.yml)~
-  - missing keybase account
-  - missing domain name
+- [BitcoinEOS](block-producers/bitcoin-eos.yml)
 - [Coinstakes](block-producers/coinstakes.yml)
 - ~[Crypto Lions](block-producers/crypto-lions.yml)~
   - missing keybase account
