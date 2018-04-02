@@ -1,5 +1,7 @@
 # Block Producers
 
+[![Build Status](https://travis-ci.org/ScholarTestnet/scholar-block-producers.svg?branch=master)](https://travis-ci.org/ScholarTestnet/scholar-block-producers)
+
 List of Block Producers for Scholar Testnet
 
 ## Requirements
