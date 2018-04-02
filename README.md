@@ -57,3 +57,25 @@ There are two ways to sign up:
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
+
+## Scripts
+
+### List `p2p-peer-address`
+
+```
+$ node ./scripts/list-p2p-peer-address.js
+p2p-peer-address = scholartnet.bitcoineos.fun:7080
+p2p-peer-address = eos.coinstakes.io:9876
+p2p-peer-address = scholartestnet.cryptolions.io:9900
+p2p-peer-address = eosbrazil.com:8887
+p2p-peer-address = eoscal.wxrepository.ca:9876
+p2p-peer-address = testnet.eoscannon.io:9999
+p2p-peer-address = scholar.eosdetroit.com:7777
+p2p-peer-address = testnet.eosdublin.io:9876
+p2p-peer-address = testnet.eosnairobi.io:9876
+p2p-peer-address = testnet.eosnation.io:9876
+p2p-peer-address = scholar.eosnewyork.io:9874
+p2p-peer-address = bp3-d3.eos42.io:9876
+p2p-peer-address = testnet.eosocal.io:9876
+p2p-peer-address = testnet.meet.one:9876
+```
