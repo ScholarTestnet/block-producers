@@ -38,8 +38,7 @@ There are two ways to sign up:
 
 - [BitcoinEOS](block-producers/bitcoin-eos.yml)
 - [Coinstakes](block-producers/coinstakes.yml)
-- ~[Crypto Lions](block-producers/crypto-lions.yml)~
-  - missing keybase account
+- [Crypto Lions](block-producers/crypto-lions.yml)
 - [EOS Brazil](block-producers/eos-brazil.yml)
 - [EOS.Cafe Calgary](block-producers/eos-cafe-calgary.yml)
 - [EOS Cannon](block-producers/eos-cannon.yml)
