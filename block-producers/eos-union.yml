@@ -1,7 +1,7 @@
 name: EOS Union
 website: http://www.eos.ren
-logo:
-domain:
+logo: http://www.eos.ren/unionlogo/eosunion.jpg
+domain: testnet.eos.ren
 http: 443
 p2p: 9876
 telegram: eosren
