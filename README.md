@@ -80,7 +80,7 @@ p2p-peer-address = testnet.eosocal.io:9876
 p2p-peer-address = testnet.meet.one:9876
 ```
 
-### List `producer-list`
+### Generate `producer-list`
 
 ```
 $ node scripts/generate-producer-list.js
