@@ -30,6 +30,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 
 - Organization/Community name
 - Website
+- Agent Name
 - Logo (small logo, 100x100 pixel)
 
 ## Sign up

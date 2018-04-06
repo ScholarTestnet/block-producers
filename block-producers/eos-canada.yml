@@ -3,7 +3,8 @@ website: https://eos-canada.io
 logo:
 domain:
 http:
-p2p: 
+p2p:
 telegram: abourget
 keybase: abourget
 block_signing_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
+agent_name:

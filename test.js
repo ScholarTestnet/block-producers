@@ -8,8 +8,8 @@ test('validate producers', t => {
   glob.sync(path.join(__dirname, 'block-producers', '*.yml')).forEach(filepath => {
     const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
     const {name} = path.parse(filepath)
-    const requiredFields = ['name', 'domain', 'http', 'p2p', 'telegram', 'keybase', 'block_signing_key'];
-    const optionalFields = ['website', 'logo'];
+    const requiredFields = ['name', 'domain', 'http', 'p2p', 'telegram', 'block_signing_key'];
+    const optionalFields = ['website', 'logo', 'keybase'];
 
     // Required Fields
     requiredFields.forEach(field => {
