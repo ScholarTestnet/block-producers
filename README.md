@@ -173,7 +173,7 @@ $ node scripts/generate-producer-list.js
     "keybase": "robrigo"
   },
   {
-    "logo": "",
+    "logo": "https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true",
     "producer": "",
     "name": "EOS Dublin",
     "website": "https://eosdublin.com",
