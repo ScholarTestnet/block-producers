@@ -35,15 +35,8 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 
 ## Sign up
 
-There are two ways to sign up:
-
-### Google Form
-
-- [Submit your server credentials HERE](https://docs.google.com/forms/d/e/1FAIpQLSdf4IzilRu1S7KTeQ8E2sycxcS1sOb9egkoKl7bkXqq-UU5rw/viewform).
-
-### GitHub
-
-- Submit a GitHub Pull Request to this repo.
+1. Submit a Pull Request to `block-producers` with your server credentials.
+2. TravisCI tests must pass (fail = missing required server configuration)
 
 ## Block Producers (Communities/Organizations)
 
