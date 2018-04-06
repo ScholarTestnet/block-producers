@@ -1,0 +1,10 @@
+name: EOSFans-EOS中文社区
+website: https://eosfans.io/
+logo:
+domain: testnet.eosfans.io
+http: 443
+p2p: 9876
+telegram: strahe
+keybase:
+block_signing_key:
+agent_name: eosfans
