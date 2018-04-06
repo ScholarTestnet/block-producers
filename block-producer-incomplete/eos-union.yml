@@ -6,3 +6,4 @@ http: 443
 p2p: 9876
 telegram: eosren
 keybase:
+block_signing_key:

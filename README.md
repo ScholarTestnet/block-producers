@@ -11,6 +11,16 @@ List of Block Producers for Scholar Testnet
 - [Keybase](https://keybase.io) (must have a generated public key)
 - [Telegram](https://telegram.org) (must be a single username, not a group)
 
+## Block Signing Key
+
+EOS Public key used for creating blocks, if none is provided before the launch of the Testnet. An EOS key pair will be generated for you and sent via your Keybase account.
+
+```
+$ cleos create key
+Private key: <EOS PRIVATE KEY>
+Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+```
+
 ## Server Configurations:
 
 - Domain name associated with server (ex: `testnet.<domain>.io` )

@@ -6,3 +6,4 @@ http: 8880
 p2p: 7777
 telegram: robrigo
 keybase: robrigo
+block_signing_key:
