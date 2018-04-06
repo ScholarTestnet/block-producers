@@ -45,11 +45,10 @@ There are two ways to sign up:
 
 - Submit a GitHub Pull Request to this repo.
 
-## Communities/Organizations
+## Block Producers (Communities/Organizations)
 
 - [BitcoinEOS](block-producers/bitcoin-eos.yml)
 - [Coinstakes](block-producers/coinstakes.yml)
-- [Crypto Lions](block-producers/crypto-lions.yml)
 - [EOS Brazil](block-producers/eos-brazil.yml)
 - [EOS.Cafe Calgary](block-producers/eos-cafe-calgary.yml)
 - [EOS Cannon](block-producers/eos-cannon.yml)
@@ -58,18 +57,30 @@ There are two ways to sign up:
 - [EOS Nairobi](block-producers/eos-nairobi.yml)
 - [EOS Nation](block-producers/eos-nation.yml)
 - [EOS New York](block-producers/eos-new-york.yml)
+- [EOS42](block-producers/eos42.yml)
+- [EOSoCal](block-producers/eosocal.yml)
+- [Meet.one](block-producers/meet-one.yml)
+
+## Missing Requirments
+
+- ~[Crypto Lions](block-producers/crypto-lions.yml)~
+  - missing public key for Keybase account
+  - missing EOS public key
 - ~[EOS Nottingham](block-producers/eos-nottingham.yml)~
   - missing domain name
   - missing keybase account
+  - missing EOS public key
 - ~[EOS Union](block-producers/eos-union.yml)~
   - missing keybase account
   - missing domain name
   - missing personal telegram account (must not be group account)
-- [EOS42](block-producers/eos42.yml)
-- [EOSoCal](block-producers/eosocal.yml)
-- [Meet.one](block-producers/meet-one.yml)
-- [EOS Canada](block-producers/eos-canada.yml)
-- [EOS Fans](block-producers/eos-fans.yml)
+- ~[EOS Canada](block-producers/eos-canada.yml)~
+  - missing domain name
+  - missing p2p port
+  - missing http port
+- ~[EOS Fans](block-producers/eos-fans.yml)~
+  - missing Keybase account
+  - missing EOS public key
 
 ## Scripts
 
