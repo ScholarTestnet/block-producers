@@ -42,7 +42,6 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 
 - [BitcoinEOS](block-producers/bitcoin-eos.yml)
 - [Coinstakes](block-producers/coinstakes.yml)
-- [EOS Brazil](block-producers/eos-brazil.yml)
 - [EOS.Cafe Calgary](block-producers/eos-cafe-calgary.yml)
 - [EOS Cannon](block-producers/eos-cannon.yml)
 - [EOS Detroit](block-producers/eos-detroit.yml)
@@ -55,8 +54,9 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [Meet.one](block-producers/meet-one.yml)
 - [EOS Union](block-producers/eos-union.yml)
 
-## Missing Requirments
+## Block Producers (Standby)
 
+- [EOS Brazil](block-producers/eos-brazil.yml)
 - ~[Crypto Lions](block-producers/crypto-lions.yml)~
   - missing public key for Keybase account
   - missing EOS public key
