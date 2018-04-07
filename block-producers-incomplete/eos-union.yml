@@ -4,7 +4,7 @@ logo: http://www.eos.ren/unionlogo/eosunion.jpg
 domain: testnet.eos.ren
 http: 443
 p2p: 9876
-telegram: eosren
-keybase:
-block_signing_key:
-agent_name:
+telegram: heipacker
+keybase: heipacker
+block_signing_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
+agent_name: EOSUnion
