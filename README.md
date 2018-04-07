@@ -53,6 +53,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [EOS42](block-producers/eos42.yml)
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
+- [EOS Union](block-producers/eos-union.yml)
 
 ## Missing Requirments
 
@@ -63,10 +64,6 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
   - missing domain name
   - missing keybase account
   - missing EOS public key
-- ~[EOS Union](block-producers/eos-union.yml)~
-  - missing keybase account
-  - missing domain name
-  - missing personal telegram account (must not be group account)
 - ~[EOS Canada](block-producers/eos-canada.yml)~
   - missing domain name
   - missing p2p port
