@@ -53,6 +53,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [EOSoCal](block-producers/eosocal.yml)
 - [Meet.one](block-producers/meet-one.yml)
 - [EOS Union](block-producers/eos-union.yml)
+- [BitSpace](block-producers/bitspace.yml)
 
 ## Block Producers (Standby)
 
