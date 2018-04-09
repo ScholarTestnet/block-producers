@@ -1,7 +1,7 @@
 name: BitSpace
 website: https://bitspace.no
 logo: https://avatars0.githubusercontent.com/u/22501691?s=200&v=4 
-domain: https://eos.bitspace.no/bp
+domain: eos.bitspace.no
 http: 443
 p2p: 9876
 telegram: Lars Ihler - BitSpace || Frederic Lhote - BitSpace
