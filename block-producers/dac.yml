@@ -1,0 +1,10 @@
+name: GAC
+website: https://gac.ph
+logo:  
+domain: testnet.dacgac.io
+http: 443
+p2p: 9876
+telegram: shiyong-ccx-dac
+keybase:
+block_signing_key: EOS6J8JaVEpuhFJHPcyYo3av43vP1Wt5ZhRU3D8SgV8XBaA1U5KzM
+agent_name: dacgac.io
