@@ -55,6 +55,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [EOS Union](block-producers/eos-union.yml)
 - [BitSpace](block-producers/bitspace.yml)
 - [EOS WTZ](block-producers/eos-wtz.yml)
+- [EOS Sydney](block-producers/eos-sydney.yml)
 
 ## Block Producers (Standby)
 
