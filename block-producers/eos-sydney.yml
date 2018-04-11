@@ -1,6 +1,6 @@
 name: EOS Sydney
 website: https://eosyd.io
-logo:  
+logo: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
 domain: scholar.eosyd.io
 http: 443
 p2p: 9876
