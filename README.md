@@ -56,6 +56,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [BitSpace](block-producers/bitspace.yml)
 - [EOS WTZ](block-producers/eos-wtz.yml)
 - [EOS Sydney](block-producers/eos-sydney.yml)
+- [DAC GAC](block-producers/dac-gac.yml)
 
 ## Block Producers (Standby)
 
