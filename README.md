@@ -21,7 +21,7 @@ Add your developer credentials in the [scholar-accounts repo](https://github.com
 - telegram
 - keybase
 
-Accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
+During the provisioning process (testnet BIOS Boot) accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
 
 > Note: These EOS tokens in these developer accounts are generated from a "fake" EOS snapshot, during the EOS maintnet, you will need to purchase your own EOS tokens to deploy your DApps.
 
