@@ -1,10 +1,24 @@
-name: EOS Canada
-website: https://eos-canada.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.canada
+owner_public_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
+active_public_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
+initial_block_signing_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
+
+# Primary Contact (Required)
+telegram_user: abourget
+keybase_user: abourget
+
+# Server Config (Optional)
 domain:
 http:
 p2p:
-telegram_user: abourget
-keybase_user: abourget
-block_signing_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
-agent_name:
+agent_name: EOS Canada
+
+# Organization (Optional)
+organization_name: eos-canada
+logo:
+timezone:
+website: https://eos-canada.io

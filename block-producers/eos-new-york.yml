@@ -1,10 +1,24 @@
-name: EOS New York
-website: http://eosnewyork.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.new-york
+owner_public_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
+active_public_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
+initial_block_signing_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
+
+# Primary Contact (Required)
+telegram_user: deckw
+keybase_user: d3ck
+
+# Server Config (Optional)
 domain: scholar.eosnewyork.io
 http: 8800
 p2p: 9874
-telegram_user: deckw
-keybase_user: d3ck
-block_signing_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
-agent_name:
+agent_name: EOS New York
+
+# Organization (Optional)
+organization_name: eos-new-york
+logo: 
+timezone: 
+website: http://eosnewyork.io

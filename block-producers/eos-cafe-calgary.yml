@@ -1,10 +1,24 @@
-name: EOS Cafe Calgary
-website: https://eos.cafe
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.cafe-calgary
+owner_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+active_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+initial_block_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+
+# Primary Contact (Required)
+telegram_user: n_doy
+keybase_user: eoscalgary
+
+# Server Config (Optional)
 domain: eoscal.wxrepository.ca
 http: 8888
 p2p: 9876
-telegram_user: n_doy
-keybase_user: eoscalgary
-block_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
-agent_name:
+agent_name: EOS Cafe Calgary
+
+# Organization (Optional)
+organization_name: eos-cafe-calgary
+logo: 
+timezone: 
+website: https://eos.cafe

@@ -1,10 +1,24 @@
-name: EOS Nairobi
-website: http://eosnairobi.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.nairobi
+owner_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+active_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+initial_block_signing_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+
+# Primary Contact (Required)
+telegram_user: skypee
+keybase_user: peterokwara
+
+# Server Config (Optional)
 domain: testnet.eosnairobi.io
 http: 8888
 p2p: 9876
-telegram_user: skypee
-keybase_user: peterokwara
-block_signing_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
-agent_name:
+agent_name: EOS Nairobi
+
+# Organization (Optional)
+organization_name: eos-nairobi
+logo: 
+timezone: 
+website: http://eosnairobi.io

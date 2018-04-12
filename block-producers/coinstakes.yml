@@ -1,10 +1,24 @@
-name: Coinstakes
-website: https://coinstakes.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: coinstakes
+owner_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+active_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+initial_block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+
+# Primary Contact (Required)
+telegram_user: timogilvie
+keybase_user: timogilvie
+
+# Server Config (Optional)
 domain: eos.coinstakes.io
 http: 443
 p2p: 9876
-telegram_user: timogilvie
-keybase_user: timogilvie
-block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
-agent_name:
+agent_name: Coinstakes
+
+# Organization (Optional)
+organization_name: coinstakes
+logo: 
+timezone: 
+website: https://coinstakes.io

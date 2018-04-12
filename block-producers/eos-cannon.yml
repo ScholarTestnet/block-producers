@@ -1,10 +1,24 @@
-name: EOS Cannon
-website: https://eoscannon.io
-logo: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.cannon
+owner_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+active_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+initial_block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+
+# Primary Contact (Required)
+telegram_user: Luckybean
+keybase_user: luckybean
+
+# Server Config (Optional)
 domain: testnet.eoscannon.io
 http: 443
 p2p: 9999
-telegram_user: Luckybean
-keybase_user: luckybean
-block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
-agent_name:
+agent_name: EOS Cannon
+
+# Organization (Optional)
+organization_name: eos-cannon
+logo: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png
+timezone: 
+website: https://eoscannon.io

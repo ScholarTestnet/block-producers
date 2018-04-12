@@ -1,10 +1,24 @@
-name: EOS Dublin
-website: https://eosdublin.com
-logo: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.dublin
+owner_public_key: EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX
+active_public_key: EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX
+initial_block_signing_key: EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX
+
+# Primary Contact (Required)
+telegram_user: samnoble
+keybase_user: eosdublin
+
+# Server Config (Optional)
 domain: testnet.eosdublin.io
 http: 443
 p2p: 9876
-telegram_user: samnoble
-keybase_user: eosdublin
-block_signing_key: EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX
-agent_name:
+agent_name: EOS Dublin
+
+# Organization (Optional)
+organization_name: eos-dublin
+logo: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
+timezone: 
+website: https://eosdublin.com

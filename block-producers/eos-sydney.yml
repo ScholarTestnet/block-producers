@@ -1,10 +1,24 @@
-name: EOS Sydney
-website: https://eosyd.io
-logo: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.sydney
+owner_public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+active_public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+initial_block_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+
+# Primary Contact (Required)
+telegram_user: Ralf Weinand - EOS Sydney
+keybase_user: eosyd
+
+# Server Config (Optional)
 domain: scholar.eosyd.io
 http: 443
 p2p: 9876
-telegram_user: Ralf Weinand - EOS Sydney
-keybase_user: eosyd
-block_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
 agent_name: EOS Sydney
+
+# Organization (Optional)
+organization_name: eos-sydney
+logo: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
+timezone: 
+website: https://eosyd.io

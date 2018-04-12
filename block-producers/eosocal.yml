@@ -1,10 +1,24 @@
-name: EOSoCal
-website: https://eosocal.io
-logo: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eosocal
+owner_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+active_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+initial_block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+
+# Primary Contact (Required)
+telegram_user: gmory
+keybase_user: gmory
+
+# Server Config (Optional)
 domain: testnet.eosocal.io
 http: 443
 p2p: 9876
-telegram_user: gmory
-keybase_user: gmory
-block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
 agent_name: EOSoCal
+
+# Organization (Optional)
+organization_name: eosocal
+logo: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png
+timezone: 
+website: https://eosocal.io

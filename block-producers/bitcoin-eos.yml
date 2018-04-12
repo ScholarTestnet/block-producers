@@ -1,10 +1,24 @@
-name: BitEOS
-website: http://bitcoineos.fun/
-logo: https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: bitcoin.eos
+owner_public_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
+active_public_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
+initial_block_signing_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
+
+# Primary Contact (Required)
+telegram_user: steemalf
+keybase_user: aporeosoe
+
+# Server Config (Optional)
 domain: scholartnet.bitcoineos.fun
 http: 7070
 p2p: 7080
-telegram_user: steemalf
-keybase_user: aporeosoe
-block_signing_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
-agent_name:
+agent_name: BitEOS
+
+# Organization (Optional)
+organization_name: bitcoin-eos
+logo: https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg
+timezone: 
+website: http://bitcoineos.fun/

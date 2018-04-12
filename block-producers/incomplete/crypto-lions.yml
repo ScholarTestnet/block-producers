@@ -1,10 +1,24 @@
-name: Crypto Lions
-website: http://cryptolions.io
-logo: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: crypto.lions
+owner_public_key:
+active_public_key:
+initial_block_signing_key:
+
+# Primary Contact (Required)
+telegram_user: Bohdan
+keybase_user: cryptolions
+
+# Server Config (Optional)
 domain: scholartestnet.cryptolions.io
 http: 8911
 p2p: 9900
-telegram_user: Bohdan
-keybase_user: cryptolions
-block_signing_key:
-agent_name:
+agent_name: Crypto Lions
+
+# Organization (Optional)
+organization_name: crypto-lions
+logo: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png
+timezone:
+website: http://cryptolions.io

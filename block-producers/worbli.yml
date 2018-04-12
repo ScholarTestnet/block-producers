@@ -1,10 +1,24 @@
-name: Worbli
-website: https://eos.worbli.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: worbli
+owner_public_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
+active_public_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
+initial_block_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
+
+# Primary Contact (Required)
+telegram_user: Robert Dewilder - Worbli
+keybase_user: worbli
+
+# Server Config (Optional)
 domain: scholar.worbli.io
 http: 8888
 p2p: 9876
-telegram_user: Robert Dewilder - Worbli
-keybase_user: worbli
-block_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
-agent_name: 
+agent_name: Worbli
+
+# Organization (Optional)
+organization_name: worbli
+logo: 
+timezone: 
+website: https://eos.worbli.io

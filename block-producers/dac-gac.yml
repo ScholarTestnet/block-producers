@@ -1,10 +1,24 @@
-name: GAC
-website: http://dac.ph/
-logo: http://x.dac.ph/images/DAC-logo.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: dac.gac
+owner_public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+active_public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+initial_block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+
+# Primary Contact (Required)
+telegram_user: shiyong-ccx-dac
+keybase_user: Bryan74
+
+# Server Config (Optional)
 domain: testnet.dacgac.io
 http: 443
 p2p: 9876
-telegram_user: shiyong-ccx-dac
-keybase_user: Bryan74
-block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 agent_name: dacgac.io
+
+# Organization (Optional)
+organization_name: dac-gac
+logo: http://x.dac.ph/images/DAC-logo.png
+timezone: 
+website: http://dac.ph/

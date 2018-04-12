@@ -1,10 +1,24 @@
-name: EOS WTZ
-website: 
-logo: 
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.wtz
+owner_public_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
+active_public_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
+initial_block_signing_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
+
+# Primary Contact (Required)
+telegram_user: artist
+keybase_user: artist_wenjie
+
+# Server Config (Optional)
 domain: eos.artphp.top
 http: 443
 p2p: 9999
-telegram_user: artist
-keybase_user: artist_wenjie
-block_signing_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
 agent_name: aliyun
+
+# Organization (Optional)
+organization_name: eos-wtz
+logo: 
+timezone: 
+website: null

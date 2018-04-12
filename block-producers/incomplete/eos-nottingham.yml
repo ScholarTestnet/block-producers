@@ -1,10 +1,24 @@
-name: EOS Nottingham
-website: https://eosnottingham.io
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.nottingham
+owner_public_key:
+active_public_key:
+initial_block_signing_key:
+
+# Primary Contact (Required)
+telegram_user: eos_nottingham
+keybase_user:
+
+# Server Config (Optional)
 domain:
 http: 8443
 p2p: 9977
-telegram_user: eos_nottingham
-keybase_user:
-block_signing_key:
-agent_name:
+agent_name: EOS Nottingham
+
+# Organization (Optional)
+organization_name: eos-nottingham
+logo:
+timezone:
+website: https://eosnottingham.io

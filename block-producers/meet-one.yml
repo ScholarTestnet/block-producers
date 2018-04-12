@@ -1,10 +1,24 @@
-name: MEET.ONE
-website: https://meet.one/en
-logo: https://meet.one/assets/MEET.png
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: meet.one
+owner_public_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
+active_public_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
+initial_block_signing_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
+
+# Primary Contact (Required)
+telegram_user: wuyahuang
+keybase_user: meetone
+
+# Server Config (Optional)
 domain: testnet.meet.one
 http: 443
 p2p: 9876
-telegram_user: wuyahuang
-keybase_user: meetone
-block_signing_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
-agent_name:
+agent_name: MEET.ONE
+
+# Organization (Optional)
+organization_name: meet-one
+logo: https://meet.one/assets/MEET.png
+timezone: 
+website: https://meet.one/en

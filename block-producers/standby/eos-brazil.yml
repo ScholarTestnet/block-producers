@@ -1,10 +1,24 @@
-name: EOS Brazil
-website: https://eosbrazil.com
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.brazil
+owner_public_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
+active_public_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
+initial_block_signing_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
+
+# Primary Contact (Required)
+telegram_user: zaratustra418
+keybase_user: zaratustra
+
+# Server Config (Optional)
 domain: eosbrazil.com
 http: 9875
 p2p: 8887
-telegram_user: zaratustra418
-keybase_user: zaratustra
-block_signing_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
-agent_name:
+agent_name: EOS Brazil
+
+# Organization (Optional)
+organization_name: eos-brazil
+logo:
+timezone:
+website: https://eosbrazil.com

@@ -1,10 +1,24 @@
-name: EOSFans-EOS中文社区
-website: https://eosfans.io/
-logo:
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: eos.fans
+owner_public_key:
+active_public_key:
+initial_block_signing_key:
+
+# Primary Contact (Required)
+telegram_user: strahe
+keybase_user:
+
+# Server Config (Optional)
 domain: testnet.eosfans.io
 http: 443
 p2p: 9876
-telegram_user: strahe
-keybase_user:
-block_signing_key:
 agent_name: eosfans
+
+# Organization (Optional)
+organization_name: eos-fans
+logo:
+timezone:
+website: https://eosfans.io/
