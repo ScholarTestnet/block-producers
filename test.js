@@ -12,7 +12,8 @@ test('validate block-producers configs', t => {
       'account_name',
       'owner_public_key',
       'active_public_key',
-      'initial_block_signing_key',
+      'producer_name',
+      'block_signing_key',
       'telegram_user',
       'keybase_user'
     ];
