@@ -8,7 +8,10 @@ During each new launch of Scholar Testnet, new accounts will be generated for bo
 
 # Developpers
 
-For interested developers wanting to join but not produce blocks, accounts will be generated for you to test your application and the "fake" EOS snapshot will grant you some EOS tokens to be able to run your applications.
+For those interested developers wanting to join the Scholar Testnet to test their latest DApp.
+Add your developer credentials in this current repo under `/developers/<YOUR NAME>.yml` which should include the following **required** fields mentioned below.
+
+Accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
 
 ## Developers - Required
 
