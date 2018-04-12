@@ -27,6 +27,8 @@ test('validate block-producers configs', t => {
       'timezone',
       'website'
     ];
+    // Account name longer then 13 characters
+    if (config.account_name.length > 13) t.fail(`${name} account_name cannot be longer than 13 characters`)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -55,6 +57,8 @@ test('validate developers configs', t => {
       'timezone',
       'website'
     ];
+    // Account name longer then 13 characters
+    if (config.account_name.length > 13) t.fail(`${name} account_name cannot be longer than 13 characters`)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
