@@ -1,24 +1,27 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
+# Developer Account (Required)
 account_name: eos.canada
 owner_public_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
 active_public_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
-initial_block_signing_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
+
+# Block Producer Account (Required)
+producer_name: eos.canada
+block_signing_key: EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX
 
 # Primary Contact (Required)
 telegram_user: abourget
 keybase_user: abourget
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
+domain: 
+http: 
+p2p: 
 agent_name: EOS Canada
 
 # Organization (Optional)
 organization_name: eos-canada
-logo_url:
-timezone:
+logo_url: 
+timezone: 
 website: https://eos-canada.io

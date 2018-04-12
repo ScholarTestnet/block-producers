@@ -1,11 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
+# Developer Account (Required)
 account_name: coinstakes
 owner_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
 active_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
-initial_block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+
+# Block Producer Account (Required)
+producer_name: coinstakes
+block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
 
 # Primary Contact (Required)
 telegram_user: timogilvie

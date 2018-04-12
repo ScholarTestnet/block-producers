@@ -1,11 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
+# Developer Account (Required)
 account_name: eos.brazil
 owner_public_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
 active_public_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
-initial_block_signing_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
+
+# Block Producer Account (Required)
+producer_name: eos.brazil
+block_signing_key: EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt
 
 # Primary Contact (Required)
 telegram_user: zaratustra418
@@ -19,6 +22,6 @@ agent_name: EOS Brazil
 
 # Organization (Optional)
 organization_name: eos-brazil
-logo_url:
-timezone:
+logo_url: 
+timezone: 
 website: https://eosbrazil.com
