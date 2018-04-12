@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "scholar-block-producers",
+  "name": "scholar-accounts",
   "version": "1.0.0",
-  "description": "Scholar Block Producers",
+  "description": "Scholar Accounts",
   "scripts": {
     "test": "node test.js"
   },
