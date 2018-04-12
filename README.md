@@ -1,8 +1,25 @@
-# Block Producers
+# Scholar Accounts
 
 [![Build Status](https://travis-ci.org/ScholarTestnet/scholar-block-producers.svg?branch=master)](https://travis-ci.org/ScholarTestnet/scholar-block-producers)
 
-List of Block Producers for Scholar Testnet
+List of Developers & Block Producers for Scholar Testnet.
+
+During each new launch of Scholar Testnet, new accounts will be generated for both Developers & Block Producers. Due to privacy concerns, a "fake" EOS snapshot will be generated for each account that is aimed to be deployed on the Scholar Testnet.
+
+# Developpers
+
+For interested developers wanting to join but not produce blocks, accounts will be generated for you to test your application and the "fake" EOS snapshot will grant you some EOS tokens to be able to run your applications.
+
+## Developers - Required
+
+- account_name
+- owner_public_key
+- active_public_key
+
+## Developers - Optional
+
+- telegram
+- keybase_user
 
 ## Requirements
 
