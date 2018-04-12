@@ -25,7 +25,10 @@ Accounts will be created for each developer and a certain amount of EOS tokens w
 
 > Note: These EOS tokens in these developer accounts are generated from a "fake" EOS snapshot, during the EOS maintnet, you will need to purchase your own EOS tokens to deploy your DApps.
 
-## Requirements
+# For Block Producers
+
+1. Submit a Pull Request to `block-producers` with your server credentials.
+2. TravisCI tests must pass (fail = missing required server configuration)
 
 ### Accounts:
 
@@ -54,12 +57,7 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - Agent Name
 - Logo (small logo, 100x100 pixel)
 
-## Sign up
-
-1. Submit a Pull Request to `block-producers` with your server credentials.
-2. TravisCI tests must pass (fail = missing required server configuration)
-
-## Block Producers (Communities/Organizations)
+## Communities/Organizations/Block Producer Candidates
 
 - [BitcoinEOS](block-producers/bitcoin-eos.yml)
 - [Coinstakes](block-producers/coinstakes.yml)
@@ -78,24 +76,6 @@ Public key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 - [EOS WTZ](block-producers/eos-wtz.yml)
 - [EOS Sydney](block-producers/eos-sydney.yml)
 - [DAC GAC](block-producers/dac-gac.yml)
-
-## Block Producers (Standby)
-
-- [EOS Brazil](block-producers/eos-brazil.yml)
-- ~[Crypto Lions](block-producers/crypto-lions.yml)~
-  - missing public key for Keybase account
-  - missing EOS public key
-- ~[EOS Nottingham](block-producers/eos-nottingham.yml)~
-  - missing domain name
-  - missing keybase account
-  - missing EOS public key
-- ~[EOS Canada](block-producers/eos-canada.yml)~
-  - missing domain name
-  - missing p2p port
-  - missing http port
-- ~[EOS Fans](block-producers/eos-fans.yml)~
-  - missing Keybase account
-  - missing EOS public key
 
 ## Scripts
 
