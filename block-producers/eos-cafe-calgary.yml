@@ -2,12 +2,12 @@
 # https://github.com/ScholarTestnet
 
 # Developer Account (Required)
-account_name: eos.cafe-calgary
+account_name: eos.cafe.calgary
 owner_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
 active_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
 
 # Block Producer Account (Required)
-producer_name: eos.cafe-calgary
+producer_name: eos.cafe.calgary
 block_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
 
 # Primary Contact (Required)
