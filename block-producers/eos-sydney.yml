@@ -19,6 +19,6 @@ agent_name: EOS Sydney
 
 # Organization (Optional)
 organization_name: eos-sydney
-logo: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
+logo_url: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
 timezone: 
 website: https://eosyd.io

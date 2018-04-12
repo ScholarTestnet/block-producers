@@ -1,8 +1,17 @@
-# Required
+# EOS Scholar - Developers
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
 account_name: denis.carriere
 owner_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 active_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
 
-# Optional
+# Primary Contact (Optional)
 telegram_user: DenisCarriere
 keybase_user: deniscarriere
+
+# Organization (Optional)
+organization_name: eos-nation
+logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
+timezone: America/Toronto
+website: https://eosnation.io

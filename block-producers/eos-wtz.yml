@@ -19,6 +19,6 @@ agent_name: aliyun
 
 # Organization (Optional)
 organization_name: eos-wtz
-logo: 
+logo_url: 
 timezone: 
-website: null
+website: 

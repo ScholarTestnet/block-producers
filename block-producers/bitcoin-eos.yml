@@ -19,6 +19,6 @@ agent_name: BitEOS
 
 # Organization (Optional)
 organization_name: bitcoin-eos
-logo: https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg
+logo_url: https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg
 timezone: 
 website: http://bitcoineos.fun/

@@ -19,6 +19,6 @@ agent_name: EOSUnion
 
 # Organization (Optional)
 organization_name: eos-union
-logo: http://www.eos.ren/unionlogo/eosunion.jpg
+logo_url: http://www.eos.ren/unionlogo/eosunion.jpg
 timezone: 
 website: http://www.eos.ren

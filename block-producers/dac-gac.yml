@@ -19,6 +19,6 @@ agent_name: dacgac.io
 
 # Organization (Optional)
 organization_name: dac-gac
-logo: http://x.dac.ph/images/DAC-logo.png
+logo_url: http://x.dac.ph/images/DAC-logo.png
 timezone: 
 website: http://dac.ph/

@@ -19,6 +19,6 @@ agent_name: MEET.ONE
 
 # Organization (Optional)
 organization_name: meet-one
-logo: https://meet.one/assets/MEET.png
+logo_url: https://meet.one/assets/MEET.png
 timezone: 
 website: https://meet.one/en

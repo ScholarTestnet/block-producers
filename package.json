@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Scholar Accounts",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test.js"
   },
   "author": "Denis Carriere <EOS Nation>",
   "license": "MIT",
