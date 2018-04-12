@@ -6,23 +6,24 @@ List of Developers & Block Producers for Scholar Testnet.
 
 During each new launch of Scholar Testnet, new accounts will be generated for both Developers & Block Producers. Due to privacy concerns, a "fake" EOS snapshot will be generated for each account that is aimed to be deployed on the Scholar Testnet.
 
-# Developpers
+# For Developpers
 
-For those interested developers wanting to join the Scholar Testnet to test their latest DApp.
-Add your developer credentials in this current repo under `/developers/<YOUR NAME>.yml` which should include the following **required** fields mentioned below.
+For those developers interested in joining the Scholar Testnet to test their latest DApps.
 
-Accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
+Add your developer credentials in the [scholar-accounts repo](https://github.com/ScholarTestnet/scholar-accounts) under `/developers/<YOUR NAME>.yml` via Github pull request, your YAML config should include the following:
 
-## Developers - Required
-
+**Required fields:**
 - account_name
 - owner_public_key
 - active_public_key
 
-## Developers - Optional
-
+**Optional fields:**
 - telegram
-- keybase_user
+- keybase
+
+Accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
+
+> Note: These EOS tokens in these developer accounts are generated from a "fake" EOS snapshot, during the EOS maintnet, you will need to purchase your own EOS tokens to deploy your DApps.
 
 ## Requirements
 
