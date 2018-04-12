@@ -4,7 +4,7 @@ logo: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
 domain: scholar.eosyd.io
 http: 443
 p2p: 9876
-telegram: Ralf Weinand - EOS Sydney
-keybase: eosyd
+telegram_user: Ralf Weinand - EOS Sydney
+keybase_user: eosyd
 block_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
 agent_name: EOS Sydney

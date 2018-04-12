@@ -4,7 +4,7 @@ logo:
 domain:
 http: 8443
 p2p: 9977
-telegram: eos_nottingham
-keybase:
+telegram_user: eos_nottingham
+keybase_user:
 block_signing_key:
 agent_name:

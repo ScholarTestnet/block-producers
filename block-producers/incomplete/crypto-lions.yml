@@ -4,7 +4,7 @@ logo: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11
 domain: scholartestnet.cryptolions.io
 http: 8911
 p2p: 9900
-telegram: Bohdan
-keybase: cryptolions
+telegram_user: Bohdan
+keybase_user: cryptolions
 block_signing_key:
 agent_name:

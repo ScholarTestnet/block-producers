@@ -4,7 +4,7 @@ logo:
 domain: scholar.eosdetroit.com
 http: 8880
 p2p: 7777
-telegram: robrigo
-keybase: robrigo
+telegram_user: robrigo
+keybase_user: robrigo
 block_signing_key: EOS7yKbJ5VmWY7wWEuz7kKhA9jV6gwXAjBmQmKmcewptArenteSBg
 agent_name: EOS Detroit

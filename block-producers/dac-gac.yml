@@ -4,7 +4,7 @@ logo: http://x.dac.ph/images/DAC-logo.png
 domain: testnet.dacgac.io
 http: 443
 p2p: 9876
-telegram: shiyong-ccx-dac
-keybase: Bryan74
+telegram_user: shiyong-ccx-dac
+keybase_user: Bryan74
 block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 agent_name: dacgac.io

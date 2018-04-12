@@ -4,7 +4,7 @@ logo:
 domain: bp3-d3.eos42.io
 http: 8888
 p2p: 9876
-telegram: ankh2054
-keybase: ankh2054
+telegram_user: ankh2054
+keybase_user: ankh2054
 block_signing_key: EOS5yLxG7GYbkiQWQatCrwUpij5873nkQxzyqcaMzzF9P2XQ2gKXr
 agent_name:

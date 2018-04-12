@@ -4,7 +4,7 @@ logo:
 domain: eos.artphp.top
 http: 443
 p2p: 9999
-telegram: artist
-keybase: artist_wenjie
+telegram_user: artist
+keybase_user: artist_wenjie
 block_signing_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
 agent_name: aliyun

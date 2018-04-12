@@ -4,7 +4,7 @@ logo:
 domain: scholar.eosnewyork.io
 http: 8800
 p2p: 9874
-telegram: deckw
-keybase: d3ck
+telegram_user: deckw
+keybase_user: d3ck
 block_signing_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
 agent_name:

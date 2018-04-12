@@ -4,7 +4,7 @@ logo: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11
 domain: testnet.eoscannon.io
 http: 443
 p2p: 9999
-telegram: Luckybean
-keybase: luckybean
+telegram_user: Luckybean
+keybase_user: luckybean
 block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
 agent_name:

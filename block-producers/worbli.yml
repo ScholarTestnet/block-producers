@@ -4,7 +4,7 @@ logo:
 domain: scholar.worbli.io
 http: 8888
 p2p: 9876
-telegram: Robert Dewilder - Worbli
-keybase: worbli
+telegram_user: Robert Dewilder - Worbli
+keybase_user: worbli
 block_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
 agent_name: 

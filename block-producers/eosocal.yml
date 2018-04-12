@@ -4,7 +4,7 @@ logo: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c
 domain: testnet.eosocal.io
 http: 443
 p2p: 9876
-telegram: gmory
-keybase: gmory
+telegram_user: gmory
+keybase_user: gmory
 block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
 agent_name: EOSoCal

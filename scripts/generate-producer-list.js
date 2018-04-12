@@ -10,7 +10,7 @@ const producerNames = require('./producer-names');
 
 glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filepath, index) => {
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
-  const {name, website, logo, domain, http, p2p, telegram, keybase} = config;
+  const {name, website, logo, domain, http, p2p, telegram_user, keybase} = config;
 
   if (domain) {
     producerList.push({
@@ -21,7 +21,7 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filep
       "producer": producerNames[index],
       "name": `${name || ""}`,
       "website": `${website || ""}`,
-      "telegram": `${telegram || ""}`,
+      "telegram_user": `${telegram_user || ""}`,
       "API_URL": `${domain || ""}`,
       "HTTP": `${http || ""}`,
       "P2P": `${p2p || ""}`,

@@ -4,7 +4,7 @@ logo:
 domain: eos.coinstakes.io
 http: 443
 p2p: 9876
-telegram: timogilvie
-keybase: timogilvie
+telegram_user: timogilvie
+keybase_user: timogilvie
 block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
 agent_name:

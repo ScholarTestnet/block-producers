@@ -4,7 +4,7 @@ logo: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x1
 domain: testnet.eosdublin.io
 http: 443
 p2p: 9876
-telegram: samnoble
-keybase: eosdublin
+telegram_user: samnoble
+keybase_user: eosdublin
 block_signing_key: EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX
 agent_name:

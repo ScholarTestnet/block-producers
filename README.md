@@ -18,7 +18,7 @@ Add your developer credentials in the [scholar-accounts repo](https://github.com
 - active_public_key
 
 **Optional fields:**
-- telegram
+- telegram_user
 - keybase
 
 During the provisioning process (testnet BIOS Boot) accounts will be created for each developer and a certain amount of EOS tokens will transfered to those accounts to allow the developers to properly test their DApps.
@@ -33,7 +33,7 @@ During the provisioning process (testnet BIOS Boot) accounts will be created for
 ### Accounts:
 
 - [Keybase](https://keybase.io) (must have a generated public key)
-- [Telegram](https://telegram.org) (must be a single username, not a group)
+- [telegram_user](https://telegram_user.org) (must be a single username, not a group)
 
 ## Block Signing Key
 

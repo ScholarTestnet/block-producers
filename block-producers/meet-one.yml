@@ -4,7 +4,7 @@ logo: https://meet.one/assets/MEET.png
 domain: testnet.meet.one
 http: 443
 p2p: 9876
-telegram: wuyahuang
-keybase: meetone
+telegram_user: wuyahuang
+keybase_user: meetone
 block_signing_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
 agent_name:
