@@ -3,9 +3,9 @@
 
 # EOS Accounts (Required)
 account_name: crypto.lions
-owner_public_key:
-active_public_key:
-initial_block_signing_key:
+owner_public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
+active_public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
+initial_block_signing_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
 
 # Primary Contact (Required)
 telegram_user: Bohdan
@@ -15,10 +15,10 @@ keybase_user: cryptolions
 domain: scholartestnet.cryptolions.io
 http: 8911
 p2p: 9900
-agent_name: Crypto Lions
+agent_name: CryptoLions
 
 # Organization (Optional)
-organization_name: crypto-lions
+organization_name: CryptoLions.io
 logo_url: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png
-timezone:
+timezone: +2GMT
 website: http://cryptolions.io
