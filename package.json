@@ -5,7 +5,8 @@
   "description": "Scholar Accounts",
   "scripts": {
     "test": "node test.js",
-    "snapshot": "node ./scripts/generate-snapshot.js > snapshot.csv"
+    "snapshot": "node ./scripts/generate-snapshot.js > snapshot.csv",
+    "create-accounts": "node ./scripts/generate-create-accounts.js > create-accounts.sh"
   },
   "author": "Denis Carriere <EOS Nation>",
   "license": "MIT",

@@ -27,8 +27,11 @@ test('validate block-producers configs', t => {
       'timezone',
       'website'
     ];
-    // Account name longer then 13 characters
-    if (config.account_name.length > 13) t.fail(`${name} account_name cannot be longer than 13 characters`)
+    // Accont name must be no-UTF symbols
+    if (config.account_name.split(/[.12345abcdefghijklmnopqrstuvwxyz]+/).length > 2) t.fail(`${name} [account_name] invalid character symbol`)
+
+    // Account name longer then 12 characters
+    if (config.account_name.length > 12) t.fail(`${name} account_name cannot be longer than 12 characters`)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -57,8 +60,11 @@ test('validate developers configs', t => {
       'timezone',
       'website'
     ];
-    // Account name longer then 13 characters
-    if (config.account_name.length > 13) t.fail(`${name} account_name cannot be longer than 13 characters`)
+    // Accont name must be no-UTF symbols
+    if (config.account_name.split(/[.12345abcdefghijklmnopqrstuvwxyz]+/).length > 2) t.fail(`${name} [account_name] invalid character symbol`)
+
+    // Account name longer then 12 characters
+    if (config.account_name.length > 12) t.fail(`${name} [account_name] cannot be longer than 12 characters`)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
