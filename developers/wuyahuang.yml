@@ -1,0 +1,16 @@
+# EOS Scholar - Developers
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: wuyahuang
+owner_public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
+active_public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
+
+# Primary Contact (Optional)
+telegram_user: wuyahuang
+
+# Organization (Optional)
+organization_name: meet-one
+logo_url: https://meet.one/assets/MEET.png
+timezone: China/Beijing
+website: https://meet.one
