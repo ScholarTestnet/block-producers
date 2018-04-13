@@ -1,11 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
+# Developer Account (Required)
 account_name: eos.fans
 owner_public_key:
 active_public_key:
-initial_block_signing_key:
+
+# Block Producer Account (Required)
+producer_name: eos.fans
+block_signing_key:
 
 # Primary Contact (Required)
 telegram_user: strahe
