@@ -1,6 +1,6 @@
 # Scholar Accounts
 
-[![Build Status](https://travis-ci.org/ScholarTestnet/scholar-block-producers.svg?branch=master)](https://travis-ci.org/ScholarTestnet/scholar-block-producers)
+[![Build Status](https://travis-ci.org/ScholarTestnet/scholar-accounts.svg?branch=master)](https://travis-ci.org/ScholarTestnet/scholar-accounts)
 
 List of Developers & Block Producers for Scholar Testnet.
 
