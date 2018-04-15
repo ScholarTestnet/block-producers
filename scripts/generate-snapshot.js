@@ -10,7 +10,7 @@ const blockProducers = glob.sync(path.join(__dirname, '..', 'block-producers', '
 const developers = glob.sync(path.join(__dirname, '..', 'developers', '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
 
 // Define supply per account
-const total = 1000000000
+const total = 1000000000 - 1000 // remove 1000 to prevent overdrawn balance
 const supply = (total / (blockProducers.length + developers.length)).toFixed(4)
 
 // Load configs into snapshot
