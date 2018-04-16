@@ -15,7 +15,7 @@ telegram_user: steemalf
 keybase_user: aporeosoe
 
 # Server Config (Optional)
-domain: scholartnet.bitcoineos.fun
+domain: 46.4.253.242
 http: 7070
 p2p: 7080
 agent_name: BitEOS
