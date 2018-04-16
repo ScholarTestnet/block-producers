@@ -16,7 +16,7 @@ keybase_user: eoscalgary
 
 # Server Config (Optional)
 domain: eoscal.wxrepository.ca
-http: 8888
+http: 443
 p2p: 9876
 agent_name: EOS Cafe Calgary
 
