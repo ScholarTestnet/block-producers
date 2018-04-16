@@ -2,13 +2,13 @@
 # https://github.com/ScholarTestnet
 
 # Developer Account (Required)
-account_name: coinstakes
-owner_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
-active_public_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+account_name: staked
+owner_public_key: EOS4tyhMnKdHZNNd7HaNTagL91FQZHHNi4LZzeEcLxMSkDtwwwvTM
+active_public_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
 
 # Block Producer Account (Required)
-producer_name: coinstakes
-block_signing_key: EOS81YYSEF2mffr6qvsxDGhmWjRjGqiVbBDe3WvGsRMSaBDaNXaHD
+producer_name: staked
+block_signing_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
 
 # Primary Contact (Required)
 telegram_user: timogilvie
@@ -18,10 +18,10 @@ keybase_user: timogilvie
 domain: eos.coinstakes.io
 http: 443
 p2p: 9876
-agent_name: Coinstakes
+agent_name: staked
 
 # Organization (Optional)
-organization_name: coinstakes
+organization_name: Staked
 logo_url: 
 timezone: 
-website: https://coinstakes.io
+website: https://staked.us
