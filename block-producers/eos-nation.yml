@@ -15,7 +15,7 @@ telegram_user: DenisCarriere
 keybase_user: eosnation
 
 # Server Config (Optional)
-domain: testnet.eosnation.io
+domain: scholarnet.eosnation.io
 http: 443
 p2p: 9876
 agent_name: EOS Nation
