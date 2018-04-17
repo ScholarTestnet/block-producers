@@ -1,0 +1,27 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: top.one
+owner_public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+active_public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+
+# Block Producer Account (Required)
+producer_name: top.one
+block_signing_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+
+# Primary Contact (Required)
+telegram_user: Good L
+keybase_user: topone
+
+# Server Config (Optional)
+domain: testeos.top.one
+http: 443
+p2p: 9876
+agent_name: TOP.ONE
+
+# Organization (Optional)
+organization_name: top-one
+logo_url: https://static.top.one/img/logo.png
+timezone: 
+website: https://top.one/index
