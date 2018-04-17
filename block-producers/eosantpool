@@ -1,0 +1,26 @@
+# EOS Scholar - Block Producer
+
+# Developer Account (Required)
+account_name: eosantpool
+owner_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
+active_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
+
+# Block Producer Account (Required)
+producer_name: eosantpool
+block_signing_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
+
+# Primary Contact (Required)
+telegram_user: hongsen
+keybase_user: 
+
+# Server Config (Optional)
+domain: https://testnet.eosantpool.com/
+http: 443
+p2p: 9876
+agent_name: eosantpool
+
+# Organization (Optional)
+organization_name: antpool
+logo_url: https://eosantpool.com/ant_icon.ico
+timezone: 
+website: https://eosantpool.com/
