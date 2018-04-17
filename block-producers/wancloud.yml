@@ -3,25 +3,25 @@
 
 # Developer Account (Required)
 account_name: wancloud
-owner_public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
-active_public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+owner_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
+active_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
 
 # Block Producer Account (Required)
-producer_name: wancloud
-block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+producer_name: toucan
+block_signing_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
 
 # Primary Contact (Required)
 telegram_user: ahlifei
 keybase_user: ahlifei
 
 # Server Config (Optional)
-domain: 128.1.133.206
-http: 8888
+domain: eosnet.wancloud.cloud
+http: 443
 p2p: 9876
 agent_name: leif
 
 # Organization (Optional)
-organization_name:
+organization_name: wancloud
 logo_url:
 timezone: 
 website:
