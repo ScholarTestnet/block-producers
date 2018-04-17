@@ -2,9 +2,9 @@
 # https://github.com/ScholarTestnet
 
 # Developer Account (Required)
-#account_name: wancloud
-#owner_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
-#active_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
+account_name: wancloud
+owner_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
+active_public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22
 
 # Block Producer Account (Required)
 producer_name: toucan
@@ -16,7 +16,7 @@ keybase_user: ahlifei
 
 # Server Config (Optional)
 domain: eosnet.wancloud.cloud
-https: 443
+http: 443
 p2p: 9876
 agent_name: leif
 
