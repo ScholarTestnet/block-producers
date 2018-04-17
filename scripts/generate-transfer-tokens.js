@@ -14,5 +14,5 @@ process.stdout.write(`#!/bin/bash
 
 `)
 snapshot.forEach(({account_name, supply}) => {
-  process.stdout.write(`cleos transfer eosio ${account_name} ${Math.floor(supply * 10000)} "Initial transfer from eosio to ${account_name}"\n`);
+  process.stdout.write(`cleos transfer eosio.token ${account_name} ${Math.floor(supply * 10000)} "Initial transfer from eosio.token to ${account_name}"\n`);
 })
