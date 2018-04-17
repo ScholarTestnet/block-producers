@@ -1,0 +1,16 @@
+# EOS Scholar - Developers
+# https://github.com/ScholarTestnet
+
+# EOS Accounts (Required)
+account_name: dealin.eos
+owner_public_key: EOS7WNMtKrYYmtSQfb8VyKpBM7LpWiSnZAbJ7tAoShZLKaqqovbiz
+active_public_key: EOS7WNMtKrYYmtSQfb8VyKpBM7LpWiSnZAbJ7tAoShZLKaqqovbiz
+
+# Primary Contact (Optional)
+telegram_user: judeebene
+keybase_user: judeebene
+
+# Organization (Optional)
+organization_name: dealin.io
+timezone: Nigeria
+website: dev.dealin.io
