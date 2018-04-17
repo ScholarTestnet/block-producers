@@ -2,12 +2,12 @@
 # https://github.com/ScholarTestnet
 
 # Developer Account (Required)
-account_name: eosantpool
+account_name: eos.antpool
 owner_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 active_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 
 # Block Producer Account (Required)
-producer_name: eosantpool
+producer_name: eos.antpool
 block_signing_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 
 # Primary Contact (Required)
@@ -20,7 +20,7 @@ keybase_user:
 domain: testnet.eosantpool.com
 http: 443
 p2p: 9876
-agent_name: eosantpool
+agent_name: eos.antpool
 
 # Organization (Optional)
 organization_name: antpool
