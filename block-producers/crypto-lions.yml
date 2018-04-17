@@ -12,6 +12,8 @@ block_signing_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
 
 # Primary Contact (Required)
 telegram_user: Bohdan
+
+# Secondary Contact (Optional)
 keybase_user: cryptolions
 
 # Server Config (Optional)

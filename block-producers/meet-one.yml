@@ -12,6 +12,8 @@ block_signing_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
 
 # Primary Contact (Required)
 telegram_user: wuyahuang
+
+# Secondary Contact (Optional)
 keybase_user: meetone
 
 # Server Config (Optional)

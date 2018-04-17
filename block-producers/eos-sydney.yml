@@ -12,6 +12,8 @@ block_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
 
 # Primary Contact (Required)
 telegram_user: Ralf Weinand - EOS Sydney
+
+# Secondary Contact (Optional)
 keybase_user: eosyd
 
 # Server Config (Optional)

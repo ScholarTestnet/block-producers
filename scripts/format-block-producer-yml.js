@@ -23,7 +23,9 @@ block_signing_key: ${config.block_signing_key}
 
 # Primary Contact (Required)
 telegram_user: ${config.telegram_user}
-keybase_user: ${config.keybase_user}
+
+# Secondary Contact (Optional)
+keybase_user: ${config.keybase_user || ''}
 
 # Server Config (Optional)
 domain: ${config.domain || ''}

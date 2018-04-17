@@ -12,6 +12,8 @@ block_signing_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
 
 # Primary Contact (Required)
 telegram_user: Lars Ihler - BitSpace || Frederic Lhote - BitSpace
+
+# Secondary Contact (Optional)
 keybase_user: bitspace
 
 # Server Config (Optional)

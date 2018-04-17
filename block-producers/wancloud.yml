@@ -12,6 +12,8 @@ block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 # Primary Contact (Required)
 telegram_user: ahlifei
+
+# Secondary Contact (Optional)
 keybase_user: ahlifei
 
 # Server Config (Optional)
@@ -21,7 +23,7 @@ p2p: 9876
 agent_name: leif
 
 # Organization (Optional)
-organization_name:
-logo_url:
+organization_name: 
+logo_url: 
 timezone: 
-website:
+website: 

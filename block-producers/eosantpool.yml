@@ -1,4 +1,5 @@
 # EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
 
 # Developer Account (Required)
 account_name: eosantpool
@@ -11,6 +12,8 @@ block_signing_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 
 # Primary Contact (Required)
 telegram_user: hongsen
+
+# Secondary Contact (Optional)
 keybase_user: 
 
 # Server Config (Optional)

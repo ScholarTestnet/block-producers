@@ -15,9 +15,9 @@ test('validate block-producers configs', t => {
       'producer_name',
       'block_signing_key',
       'telegram_user',
-      'keybase_user'
     ];
     const optionalFields = [
+      'keybase_user',
       'domain',
       'http',
       'p2p',

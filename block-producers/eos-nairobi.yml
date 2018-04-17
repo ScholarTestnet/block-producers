@@ -12,6 +12,8 @@ block_signing_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
 
 # Primary Contact (Required)
 telegram_user: skypee
+
+# Secondary Contact (Optional)
 keybase_user: peterokwara
 
 # Server Config (Optional)

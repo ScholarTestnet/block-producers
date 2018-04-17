@@ -12,6 +12,8 @@ block_signing_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
 
 # Primary Contact (Required)
 telegram_user: Good L
+
+# Secondary Contact (Optional)
 keybase_user: topone
 
 # Server Config (Optional)

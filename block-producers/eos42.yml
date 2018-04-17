@@ -12,6 +12,8 @@ block_signing_key: EOS5yLxG7GYbkiQWQatCrwUpij5873nkQxzyqcaMzzF9P2XQ2gKXr
 
 # Primary Contact (Required)
 telegram_user: ankh2054
+
+# Secondary Contact (Optional)
 keybase_user: ankh2054
 
 # Server Config (Optional)

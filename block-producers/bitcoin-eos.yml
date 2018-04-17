@@ -12,6 +12,8 @@ block_signing_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
 
 # Primary Contact (Required)
 telegram_user: steemalf
+
+# Secondary Contact (Optional)
 keybase_user: aporeosoe
 
 # Server Config (Optional)

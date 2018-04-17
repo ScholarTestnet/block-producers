@@ -12,6 +12,8 @@ block_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
 
 # Primary Contact (Required)
 telegram_user: n_doy
+
+# Secondary Contact (Optional)
 keybase_user: eoscalgary
 
 # Server Config (Optional)

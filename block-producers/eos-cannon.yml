@@ -12,6 +12,8 @@ block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
 
 # Primary Contact (Required)
 telegram_user: Luckybean
+
+# Secondary Contact (Optional)
 keybase_user: luckybean
 
 # Server Config (Optional)

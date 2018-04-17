@@ -12,6 +12,8 @@ block_signing_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
 
 # Primary Contact (Required)
 telegram_user: samnoble
+
+# Secondary Contact (Optional)
 keybase_user: eosdublin
 
 # Server Config (Optional)

@@ -12,6 +12,8 @@ block_signing_key: EOS6hqu2noyz8zAe1xJ2x2QD6SVkh3WcWaokuwZJgxdmPR4F3v7WR
 
 # Primary Contact (Required)
 telegram_user: deckw
+
+# Secondary Contact (Optional)
 keybase_user: d3ck
 
 # Server Config (Optional)

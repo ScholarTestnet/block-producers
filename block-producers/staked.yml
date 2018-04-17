@@ -12,6 +12,8 @@ block_signing_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
 
 # Primary Contact (Required)
 telegram_user: timogilvie
+
+# Secondary Contact (Optional)
 keybase_user: timogilvie
 
 # Server Config (Optional)

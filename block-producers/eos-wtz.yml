@@ -12,6 +12,8 @@ block_signing_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
 
 # Primary Contact (Required)
 telegram_user: artist
+
+# Secondary Contact (Optional)
 keybase_user: artist_wenjie
 
 # Server Config (Optional)

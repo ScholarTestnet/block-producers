@@ -12,6 +12,8 @@ block_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
 
 # Primary Contact (Required)
 telegram_user: Robert Dewilder - Worbli
+
+# Secondary Contact (Optional)
 keybase_user: worbli
 
 # Server Config (Optional)

@@ -12,6 +12,8 @@ block_signing_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
 
 # Primary Contact (Required)
 telegram_user: heipacker
+
+# Secondary Contact (Optional)
 keybase_user: heipacker
 
 # Server Config (Optional)

@@ -12,6 +12,8 @@ block_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 # Primary Contact (Required)
 telegram_user: shiyong-ccx-dac
+
+# Secondary Contact (Optional)
 keybase_user: Bryan74
 
 # Server Config (Optional)
