@@ -17,7 +17,7 @@ telegram_user: hongsen
 keybase_user: 
 
 # Server Config (Optional)
-domain: https://testnet.eosantpool.com/
+domain: testnet.eosantpool.com
 http: 443
 p2p: 9876
 agent_name: eosantpool
