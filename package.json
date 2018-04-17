@@ -12,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "glob": "*",
-    "js-yaml": "*"
+    "js-yaml": "*",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "tape": "*"
