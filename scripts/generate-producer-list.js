@@ -5,7 +5,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 const dns = require('dns');
-var request = require('request');
+const request = require('request');
 
 const producerList = [];
 // const producerNames = require('./producer-names');
@@ -38,10 +38,9 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filep
         body = JSON.parse(body);
         if (response && response.statusCode === 200) {
           currentFileIndex++;
-          var producerData = {
+          producerList.push({
             // TODO, Include EOS Public Key for producers
             "logo": `${logo_url || defaultLogo}`,
-            // TODO, Randomize producer names
             "producer": `${producer_name || ""}`,
             "organization_name": `${organization_name || ""}`,
             "website": `${website || ""}`,
@@ -51,8 +50,7 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filep
             "P2P": `${p2p || ""}`,
             "keybase": `${keybase || ""}`,
             "LngLat": [body.longitude, body.latitude]
-          };
-          producerList.push(producerData);
+          });
 
           if (currentFileIndex === files.length) {
             process.stdout.write(JSON.stringify(producerList, null, 2) + '\n');
