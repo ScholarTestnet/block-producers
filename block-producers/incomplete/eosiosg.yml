@@ -1,0 +1,29 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: eosiosg
+owner_public_key: EOS75YCaXeSuPExZB447AcBAWSjb47eMeBYaWpkJuDkTLQNtFKBro
+active_public_key: EOS75YCaXeSuPExZB447AcBAWSjb47eMeBYaWpkJuDkTLQNtFKBro
+
+# Block Producer Account (Required)
+producer_name: eosiosg
+block_signing_key: EOS75YCaXeSuPExZB447AcBAWSjb47eMeBYaWpkJuDkTLQNtFKBro
+
+# Primary Contact (Required)
+telegram_user: Lin Sun
+
+# Secondary Contact (Optional)
+keybase_user: 
+
+# Server Config (Optional)
+domain: scholar.eosio.sg
+http: 8885
+p2p: 9875
+agent_name: eosiosg
+
+# Organization (Optional)
+organization_name: Eosio.SG
+logo_url: 
+timezone: 
+website: 
