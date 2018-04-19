@@ -27,11 +27,7 @@ test('validate block-producers configs', t => {
       'timezone',
       'website'
     ];
-    // Accont name must be no-UTF symbols
-    if (config.account_name.split(/[.12345abcdefghijklmnopqrstuvwxyz]+/).length > 2) t.fail(`${name} [account_name] invalid character symbol`)
-
-    // Account name longer then 12 characters
-    if (config.account_name.length > 12) t.fail(`${name} account_name cannot be longer than 12 characters`)
+    testAccount(t, config.account_name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -60,11 +56,7 @@ test('validate developers configs', t => {
       'timezone',
       'website'
     ];
-    // Accont name must be no-UTF symbols
-    if (config.account_name.split(/[.12345abcdefghijklmnopqrstuvwxyz]+/).length > 2) t.fail(`${name} [account_name] invalid character symbol`)
-
-    // Account name longer then 12 characters
-    if (config.account_name.length > 12) t.fail(`${name} [account_name] cannot be longer than 12 characters`)
+    testAccount(t, config.account_name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -77,3 +69,20 @@ test('validate developers configs', t => {
   })
   t.end();
 })
+
+/**
+ * Test Account
+ *
+ * @param {*} t Test
+ * @param {string} account_name Account
+ */
+function testAccount(t, account_name) {
+  // Accont name must be no-UTF symbols
+  if (account_name.split(/[.12345abcdefghijklmnopqrstuvwxyz]+/).length > 2) t.fail(`${account_name} [account_name] invalid character symbol`)
+
+  // Account name longer then 12 characters
+  if (account_name.length > 12) t.fail(`${account_name} [account_name] cannot be longer than 12 characters`)
+
+  // Normalize Account
+  if (account_name.match('_')) t.fail(`Name not properly normalized (name: ${account_name}, normalized: ${account_name.replace('_', '.')})`)
+}
