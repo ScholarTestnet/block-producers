@@ -3,27 +3,27 @@
 
 # Developer Account (Required)
 account_name: eos.wtz
-owner_public_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
-active_public_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
+owner_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
+active_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
 
 # Block Producer Account (Required)
 producer_name: eos.wtz
-block_signing_key: EOS4v1AHuV9C1ZYs4dvyGGiFaA9NC9KpU8fhJELvVkVhkRZHgoffp
+block_signing_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
 
 # Primary Contact (Required)
-telegram_user: artist
+telegram_user: Xueyuan She
 
 # Secondary Contact (Optional)
-keybase_user: artist_wenjie
+keybase_user:
 
 # Server Config (Optional)
-domain: eos.artphp.top
-http: 443
-p2p: 9999
-agent_name: aliyun
+domain: testnet.eoswtz.com
+http: 80
+p2p: 9876
+agent_name: AWS
 
 # Organization (Optional)
-organization_name: eos-wtz
-logo_url: 
+organization_name: EOS WTZ
+logo_url: https://steemitimages.com/DQmNnQVAALWD6zhkTGBLS8z1SWs9Xr3wfzu8NvcdADYJZyT/IMG_0991.png
 timezone: 
-website: 
+website: www.eoswtz.com
