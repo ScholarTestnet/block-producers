@@ -18,7 +18,7 @@ keybase_user:
 
 # Server Config (Optional)
 domain: testnet.eoswtz.com
-http: 80
+http: 443
 p2p: 9876
 agent_name: AWS
 
