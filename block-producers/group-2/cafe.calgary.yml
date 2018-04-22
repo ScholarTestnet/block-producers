@@ -12,13 +12,13 @@ telegram_user: n_doy
 keybase_user: eoscalgary
 
 # Server Config (Optional)
-domain: eoscal.wxrepository.ca
-http: 443
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: EOS Cafe Calgary
 
 # Organization (Optional)
-organization_name: eos-cafe-calgary
-logo_url: 
-timezone: 
+organization_name: EOS Cafe Calgary
+logo_url:
+timezone:
 website: https://eos.cafe

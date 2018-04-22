@@ -12,13 +12,13 @@ telegram_user: ankh2054
 keybase_user: ankh2054
 
 # Server Config (Optional)
-domain: bp3-d3.eos42.io
-http: 8888
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: EOS42
 
 # Organization (Optional)
-organization_name: eos42
-logo_url: 
-timezone: 
+organization_name: EOS42
+logo_url:
+timezone:
 website: https://eos42.io

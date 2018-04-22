@@ -12,13 +12,13 @@ telegram_user: wuyahuang
 keybase_user: meetone
 
 # Server Config (Optional)
-domain: testnet.meet.one
-http: 443
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: MEET.ONE
 
 # Organization (Optional)
-organization_name: meet-one
+organization_name: MEET.ONE
 logo_url: https://meet.one/assets/MEET.png
-timezone: 
+timezone:
 website: https://meet.one/en

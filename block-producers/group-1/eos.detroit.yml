@@ -12,13 +12,13 @@ telegram_user: robrigo
 keybase_user: robrigo
 
 # Server Config (Optional)
-domain: scholar.eosdetroit.com
-http: 8880
-p2p: 7777
+domain:
+http:
+p2p:
 agent_name: EOS Detroit
 
 # Organization (Optional)
-organization_name: eos-detroit
-logo_url: 
-timezone: 
+organization_name: EOS Detroit
+logo_url:
+timezone:
 website: https://eosdetroit.com

@@ -12,13 +12,13 @@ telegram_user: deckw
 keybase_user: d3ck
 
 # Server Config (Optional)
-domain: scholar.eosnewyork.io
-http: 8800
-p2p: 9874
+domain:
+http:
+p2p:
 agent_name: EOS New York
 
 # Organization (Optional)
-organization_name: eos-new-york
-logo_url: 
-timezone: 
+organization_name: EOS New York
+logo_url:
+timezone:
 website: http://eosnewyork.io

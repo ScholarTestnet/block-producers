@@ -12,13 +12,13 @@ telegram_user: abourget
 keybase_user: abourget
 
 # Server Config (Optional)
-domain: 
-http: 
-p2p: 
+domain:
+http:
+p2p:
 agent_name: EOS Canada
 
 # Organization (Optional)
-organization_name: eos-canada
-logo_url: 
-timezone: 
+organization_name: EOS Canada
+logo_url:
+timezone:
 website: https://eos-canada.io

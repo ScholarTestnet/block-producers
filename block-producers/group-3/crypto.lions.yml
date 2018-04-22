@@ -12,9 +12,9 @@ telegram_user: Bohdan
 keybase_user: cryptolions
 
 # Server Config (Optional)
-domain: scholartestnet.cryptolions.io
-http: 8911
-p2p: 9900
+domain:
+http:
+p2p:
 agent_name: CryptoLions
 
 # Organization (Optional)

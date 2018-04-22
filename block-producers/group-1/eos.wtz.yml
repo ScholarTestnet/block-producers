@@ -9,16 +9,16 @@ block_signing_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
 
 # Contact (Optional)
 telegram_user: Xueyuan She
-keybase_user: 
+keybase_user:
 
 # Server Config (Optional)
-domain: testnet.eoswtz.com
-http: 443
-p2p: 9876
-agent_name: AWS
+domain:
+http:
+p2p:
+agent_name: EOS WTZ
 
 # Organization (Optional)
 organization_name: EOS WTZ
 logo_url: https://steemitimages.com/DQmNnQVAALWD6zhkTGBLS8z1SWs9Xr3wfzu8NvcdADYJZyT/IMG_0991.png
-timezone: 
+timezone:
 website: www.eoswtz.com

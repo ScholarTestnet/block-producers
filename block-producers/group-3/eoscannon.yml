@@ -12,13 +12,13 @@ telegram_user: Luckybean
 keybase_user: luckybean
 
 # Server Config (Optional)
-domain: testnet.eoscannon.io
-http: 443
-p2p: 9999
+domain:
+http:
+p2p:
 agent_name: EOS Cannon
 
 # Organization (Optional)
 organization_name: EOSCannon
 logo_url: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png
-timezone: 
+timezone:
 website: https://eoscannon.io

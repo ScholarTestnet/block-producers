@@ -12,13 +12,13 @@ telegram_user: skypee
 keybase_user: peterokwara
 
 # Server Config (Optional)
-domain: testnet.eosnairobi.io
-http: 8888
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: EOS Nairobi
 
 # Organization (Optional)
 organization_name: eos-nairobi
-logo_url: 
-timezone: 
+logo_url:
+timezone:
 website: http://eosnairobi.io

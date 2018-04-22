@@ -12,13 +12,13 @@ telegram_user: Good L
 keybase_user: topone
 
 # Server Config (Optional)
-domain: testeos.top.one
-http: 443
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: TOP.ONE
 
 # Organization (Optional)
 organization_name: top-one
 logo_url: https://static.top.one/img/logo_t1.jpg
-timezone: 
+timezone:
 website: https://top.one/index

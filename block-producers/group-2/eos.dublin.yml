@@ -12,13 +12,13 @@ telegram_user: samnoble
 keybase_user: eosdublin
 
 # Server Config (Optional)
-domain: testnet.eosdublin.io
-http: 443
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: EOS Dublin
 
 # Organization (Optional)
-organization_name: eos-dublin
+organization_name: EOS Dublin
 logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
 timezone: Europe/Dublin
 website: https://eosdublin.com
