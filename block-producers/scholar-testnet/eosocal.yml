@@ -1,0 +1,29 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: eosocal
+owner_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+active_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+
+# Block Producer Account (Required)
+producer_name: eosocal
+block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+
+# Primary Contact (Required)
+telegram_user: gmory
+
+# Secondary Contact (Optional)
+keybase_user: gmory
+
+# Server Config (Optional)
+domain: testnet.eosocal.io
+http: 443
+p2p: 9876
+agent_name: EOSoCal
+
+# Organization (Optional)
+organization_name: eosocal
+logo_url: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png
+timezone: 
+website: https://eosocal.io

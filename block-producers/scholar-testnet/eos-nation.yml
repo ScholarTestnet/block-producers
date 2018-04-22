@@ -1,0 +1,29 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: eos.nation
+owner_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+active_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+
+# Block Producer Account (Required)
+producer_name: eos.nation
+block_signing_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+
+# Primary Contact (Required)
+telegram_user: DenisCarriere
+
+# Secondary Contact (Optional)
+keybase_user: eosnation
+
+# Server Config (Optional)
+domain: scholarnet.eosnation.io
+http: 443
+p2p: 9876
+agent_name: EOS Nation
+
+# Organization (Optional)
+organization_name: eos-nation
+logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
+timezone: America/Toronto
+website: https://eosnation.io

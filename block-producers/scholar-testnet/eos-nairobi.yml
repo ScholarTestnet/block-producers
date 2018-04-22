@@ -1,0 +1,29 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: eos.nairobi
+owner_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+active_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+
+# Block Producer Account (Required)
+producer_name: eos.nairobi
+block_signing_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+
+# Primary Contact (Required)
+telegram_user: skypee
+
+# Secondary Contact (Optional)
+keybase_user: peterokwara
+
+# Server Config (Optional)
+domain: testnet.eosnairobi.io
+http: 8888
+p2p: 9876
+agent_name: EOS Nairobi
+
+# Organization (Optional)
+organization_name: eos-nairobi
+logo_url: 
+timezone: 
+website: http://eosnairobi.io

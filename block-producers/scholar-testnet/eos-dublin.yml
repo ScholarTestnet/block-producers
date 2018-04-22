@@ -1,0 +1,29 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Developer Account (Required)
+account_name: eos.dublin
+owner_public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+active_public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+
+# Block Producer Account (Required)
+producer_name: eos.dublin
+block_signing_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+
+# Primary Contact (Required)
+telegram_user: samnoble
+
+# Secondary Contact (Optional)
+keybase_user: eosdublin
+
+# Server Config (Optional)
+domain: testnet.eosdublin.io
+http: 443
+p2p: 9876
+agent_name: EOS Dublin
+
+# Organization (Optional)
+organization_name: eos-dublin
+logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
+timezone: Europe/Dublin
+website: https://eosdublin.com
