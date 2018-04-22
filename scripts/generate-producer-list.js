@@ -7,12 +7,13 @@ const glob = require('glob');
 const dns = require('dns');
 const request = require('request');
 
-const producerList = [];
-// const producerNames = require('./producer-names');
+// Customize
+const folder = process.argv[2] ? process.argv[2] : 'scholar-testnet'
 
+const producerList = [];
 let currentFileIndex = 0;
 
-glob.sync(path.join(__dirname, '..', 'block-producers', 'scholar-testnet', '*.yml')).forEach((filepath, index, files) => {
+glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).forEach((filepath, index, files) => {
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
   const {organization_name, website, producer_name, logo_url, domain, http, p2p, telegram_user, keybase} = config;
 

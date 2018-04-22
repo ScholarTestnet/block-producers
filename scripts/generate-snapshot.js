@@ -5,9 +5,12 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 
+// Customize
+const folder = process.argv[2] ? process.argv[2] : 'scholar-testnet'
+
 // Read configurations
-const blockProducers = glob.sync(path.join(__dirname, '..', 'block-producers', 'scholar-testnet', '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
-const developers = glob.sync(path.join(__dirname, '..', 'developers', '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
+const blockProducers = glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
+const developers = glob.sync(path.join(__dirname, '..', 'developers', folder, '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
 
 // Define supply per account
 const total = 1000000000 - 1000 // remove 1000 to prevent overdrawn balance
