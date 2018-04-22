@@ -5,6 +5,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 
+// Customize
 const folder = process.argv[2] ? process.argv[2] : 'scholar-testnet'
 
 // Load Configurations
