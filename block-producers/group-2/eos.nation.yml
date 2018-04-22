@@ -12,9 +12,9 @@ telegram_user: DenisCarriere
 keybase_user: deniscarriere
 
 # Server Config (Optional)
-domain: 35.182.254.163
-http: 8882
-p2p: 9872
+domain: group2.eosnation.io
+http: 8888
+p2p: 9876
 agent_name: EOS Nation
 
 # Organization (Optional)
