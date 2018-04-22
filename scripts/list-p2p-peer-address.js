@@ -5,7 +5,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 
-glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach(filepath => {
+glob.sync(path.join(__dirname, '..', 'block-producers', 'scholar-testnet', '*.yml')).forEach(filepath => {
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
   const {p2p, domain} = config;
   const {name} = path.parse(filepath)
