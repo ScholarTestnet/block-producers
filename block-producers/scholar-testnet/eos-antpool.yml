@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: eos.antpool
 owner_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 active_public_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
-
-# Block Producer Account (Required)
-producer_name: eos.antpool
 block_signing_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVfNKPgvbz8BzwoGvY1K
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: hongsen
-
-# Secondary Contact (Optional)
 keybase_user: 
 
 # Server Config (Optional)

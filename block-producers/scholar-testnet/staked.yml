@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: staked
 owner_public_key: EOS4tyhMnKdHZNNd7HaNTagL91FQZHHNi4LZzeEcLxMSkDtwwwvTM
 active_public_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
-
-# Block Producer Account (Required)
-producer_name: staked
 block_signing_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: timogilvie
-
-# Secondary Contact (Optional)
 keybase_user: timogilvie
 
 # Server Config (Optional)

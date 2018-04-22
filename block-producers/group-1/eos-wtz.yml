@@ -1,20 +1,15 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: eos.wtz
 owner_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
 active_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
-
-# Block Producer Account (Required)
-producer_name: eos.wtz
 block_signing_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: Xueyuan She
-
-# Secondary Contact (Optional)
-keybase_user:
+keybase_user: 
 
 # Server Config (Optional)
 domain: testnet.eoswtz.com

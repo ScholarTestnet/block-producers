@@ -5,18 +5,17 @@ const yaml = require('js-yaml');
 const glob = require('glob');
 
 test('validate block-producers configs', t => {
-  glob.sync(path.join(__dirname, 'block-producers', '*.yml')).forEach(filepath => {
+  glob.sync(path.join(__dirname, 'block-producers', '**', '*.yml')).forEach(filepath => {
     const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
     const {name} = path.parse(filepath)
     const requiredFields = [
       'account_name',
       'owner_public_key',
       'active_public_key',
-      'producer_name',
       'block_signing_key',
-      'telegram_user',
     ];
     const optionalFields = [
+      'telegram_user',
       'keybase_user',
       'domain',
       'http',

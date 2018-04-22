@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: bitcoin.eos
 owner_public_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
 active_public_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
-
-# Block Producer Account (Required)
-producer_name: bitcoin.eos
 block_signing_key: EOS7L4tQ92HgC9kwEHiPYpYy3kZnA9hxNxkmsmwfE8ypHhvDWUVW9
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: steemalf
-
-# Secondary Contact (Optional)
 keybase_user: aporeosoe
 
 # Server Config (Optional)

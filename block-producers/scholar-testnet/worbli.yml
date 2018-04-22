@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: worbli
 owner_public_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
 active_public_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
-
-# Block Producer Account (Required)
-producer_name: worbli
 block_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: Robert Dewilder - Worbli
-
-# Secondary Contact (Optional)
 keybase_user: worbli
 
 # Server Config (Optional)

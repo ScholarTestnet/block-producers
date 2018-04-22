@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: eosocal
 owner_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
 active_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
-
-# Block Producer Account (Required)
-producer_name: eosocal
 block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: gmory
-
-# Secondary Contact (Optional)
 keybase_user: gmory
 
 # Server Config (Optional)

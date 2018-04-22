@@ -1,19 +1,14 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: eoscannon
 owner_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
 active_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
-
-# Block Producer Account (Required)
-producer_name: eoscannon
 block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: Luckybean
-
-# Secondary Contact (Optional)
 keybase_user: luckybean
 
 # Server Config (Optional)

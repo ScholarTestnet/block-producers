@@ -12,19 +12,14 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(
   fs.writeFileSync(filepath, `# EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
-# Developer Account (Required)
+# Block Producer Account (Required)
 account_name: ${config.account_name}
 owner_public_key: ${config.owner_public_key}
 active_public_key: ${config.active_public_key}
-
-# Block Producer Account (Required)
-producer_name: ${config.producer_name}
 block_signing_key: ${config.block_signing_key}
 
-# Primary Contact (Required)
+# Contact (Optional)
 telegram_user: ${config.telegram_user}
-
-# Secondary Contact (Optional)
 keybase_user: ${config.keybase_user || ''}
 
 # Server Config (Optional)
