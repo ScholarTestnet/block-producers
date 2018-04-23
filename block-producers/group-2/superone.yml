@@ -12,13 +12,13 @@ telegram_user: robinwen
 keybase_user: superoneio
 
 # Server Config (Optional)
-domain: eos.superone.io
-http: 9999
-p2p: 9876
+domain:
+http:
+p2p:
 agent_name: superone
 
 # Organization (Optional)
 organization_name: SuperONE.io
 logo_url: https://i.imgur.com/LE3zwfD.png
-timezone: 
+timezone:
 website: https://superone.io
