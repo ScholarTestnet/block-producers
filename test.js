@@ -3,6 +3,7 @@ const test = require('tape');
 const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
+const url = require('url');
 
 test('validate block-producers configs', t => {
   glob.sync(path.join(__dirname, 'block-producers', '**', '*.yml')).forEach(filepath => {
@@ -12,7 +13,13 @@ test('validate block-producers configs', t => {
       'eosio_account_name',
       'eosio_initial_authority',
     ];
-    testAccount(t, config.eosio_account_name)
+    testAccount(t, config.eosio_account_name, name)
+    testSocial(t, config.social_twitter, name)
+    testSocial(t, config.social_telegram, name)
+    testSocial(t, config.social_facebook, name)
+    testSocial(t, config.social_github, name)
+    testSocial(t, config.social_youtube, name)
+    testSocial(t, config.social_keybase, name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -57,4 +64,21 @@ function testAccount(t, account_name) {
 
   // Normalize Account
   if (account_name.match('_')) t.fail(`Name not properly normalized (name: ${account_name}, normalized: ${account_name.replace('_', '.')})`)
+}
+
+/**
+ * Test Social Media Account
+ *
+ * @param {*} t Test
+ * @param {string} account_name Account Name
+ * @param {string} name Debug Name
+ */
+function testSocial(t, account_name, name) {
+  if (account_name) {
+    // No empty spaces
+    if (account_name.match(' ')) t.fail(`${name} => ${account_name} cannot contain white spaces`)
+
+    // Account must be fully qualified domain
+    if (!url.parse(account_name).protocol) t.fail(`${name} => social account must use a fully qualified domain URL`)
+  }
 }

@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: Lars Ihler - BitSpace || Frederic Lhote - BitSpace
+social_telegram: 
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: bitspace
+social_keybase: https://keybase.io/bitspace
 
 # Organization (Optional)
 organization_name: bitspace

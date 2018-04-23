@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: skypee
+social_telegram: https://t.me/skypee
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: peterokwara
+social_keybase: https://keybase.io/peterokwara
 
 # Organization (Optional)
 organization_name: eos-nairobi

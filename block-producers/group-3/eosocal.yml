@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: gmory
+social_telegram: https://t.me/gmory
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: gmory
+social_keybase: https://keybase.io/gmory
 
 # Organization (Optional)
 organization_name: eosocal

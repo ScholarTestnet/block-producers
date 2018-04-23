@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: wuyahuang
+social_telegram: https://t.me/wuyahuang
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: meetone
+social_keybase: https://keybase.io/meetone
 
 # Organization (Optional)
 organization_name: MEET.ONE
