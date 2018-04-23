@@ -11,6 +11,7 @@
   "author": "Denis Carriere <EOS Nation>",
   "license": "MIT",
   "dependencies": {
+    "axios": "*",
     "glob": "*",
     "js-yaml": "*",
     "request": "^2.85.0"
