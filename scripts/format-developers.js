@@ -5,26 +5,38 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 
-glob.sync(path.join(__dirname, '..', 'developers', '*.yml')).forEach(filepath => {
+glob.sync(path.join(__dirname, '..', 'developers', '**', '*.yml')).forEach(filepath => {
   const {dir, name, base} = path.parse(filepath)
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
 
   fs.writeFileSync(filepath, `# EOS Scholar - Developers
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
-account_name: ${config.account_name}
-owner_public_key: ${config.owner_public_key}
-active_public_key: ${config.active_public_key}
+# Block Producer Account (Required)
+eosio_account_name: ${config.eosio_account_name || config.account_name}
 
-# Primary Contact (Optional)
-telegram_user: ${config.telegram_user}
-keybase_user: ${config.keybase_user}
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: ${config.owner_public_key || config.eosio_initial_authority.owner.keys[0].public_key}
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: ${config.active_public_key || config.eosio_initial_authority.active.keys[0].public_key}
+      weight: 1
 
-# Organization (Optional)
-organization_name: ${config.organization_name || ''}
-logo_url: ${config.logo || ''}
-timezone: ${config.timezone || ''}
-website: ${config.website || ''}
+# Encryption (Optional)
+pgp_public_key: ${config.pgp_public_key || ''}
+
+# Social (Optional)
+social_twitter: ${config.social_twitter || ''}
+social_telegram: ${config.telegram_user || config.social_telegram || ''}
+social_facebook: ${config.social_facebook || ''}
+social_github: ${config.social_github || ''}
+social_youtube: ${config.social_youtube || ''}
+social_keybase: ${config.keybase_user || config.social_keybase || ''}
 `)
 })
