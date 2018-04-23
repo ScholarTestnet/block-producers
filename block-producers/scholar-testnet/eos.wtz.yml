@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.wtz
-owner_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
-active_public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
-block_signing_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
+eosio_account_name: eos.wtz
 
-# Contact (Optional)
-telegram_user: Xueyuan She
-keybase_user: 
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7Kjv2yamCmFmDk7UKtpP6e56YRpkoaNNir6rHFAz9xRrrUaJzD
+      weight: 1
 
 # Server Config (Optional)
-domain: testnet.eoswtz.com
-http: 443
-p2p: 9876
-agent_name: AWS
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: testnet.eoswtz.com
+eosio_https_port: 443
+eosio_p2p_host: testnet.eoswtz.com
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Xueyuan She
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: 
 
 # Organization (Optional)
 organization_name: EOS WTZ
 logo_url: https://steemitimages.com/DQmNnQVAALWD6zhkTGBLS8z1SWs9Xr3wfzu8NvcdADYJZyT/IMG_0991.png
 timezone: 
 website: www.eoswtz.com
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

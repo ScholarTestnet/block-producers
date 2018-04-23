@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: bitspace
-owner_public_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
-active_public_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
-block_signing_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
+eosio_account_name: bitspace
 
-# Contact (Optional)
-telegram_user: Lars Ihler - BitSpace || Frederic Lhote - BitSpace
-keybase_user: bitspace
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS5zAhzqBGBDQmDP1DsXRYSHcWyfvxAHHunQuN9sFBPDBfHuBB1j
+      weight: 1
 
 # Server Config (Optional)
-domain: eos.bitspace.no
-http: 443
-p2p: 9876
-agent_name: BitSpace
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: eos.bitspace.no
+eosio_https_port: 443
+eosio_p2p_host: eos.bitspace.no
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Lars Ihler - BitSpace || Frederic Lhote - BitSpace
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: bitspace
 
 # Organization (Optional)
 organization_name: bitspace
 logo_url: https://avatars0.githubusercontent.com/u/22501691?s=200&v=4
 timezone: 
 website: https://bitspace.no
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

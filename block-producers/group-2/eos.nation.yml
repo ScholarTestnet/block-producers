@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.nation
-owner_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
-active_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
-block_signing_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+eosio_account_name: eos.nation
 
-# Contact (Optional)
-telegram_user: DenisCarriere
-keybase_user: deniscarriere
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+      weight: 1
 
 # Server Config (Optional)
-domain: group2.eosnation.io
-http: 8888
-p2p: 9876
-agent_name: EOS Nation
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: group2.eosnation.io
+eosio_https_port: 8888
+eosio_p2p_host: group2.eosnation.io
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: DenisCarriere
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: deniscarriere
 
 # Organization (Optional)
 organization_name: EOS Nation
 logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
 timezone: America/Toronto
 website: https://eosnation.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.dublin
-owner_public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
-active_public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
-block_signing_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+eosio_account_name: eos.dublin
 
-# Contact (Optional)
-telegram_user: samnoble
-keybase_user: eosdublin
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDHtVNTrVBxkkAUzSqUf
+      weight: 1
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
-agent_name: EOS Dublin
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
+eosio_p2p_port: 
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: samnoble
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: eosdublin
 
 # Organization (Optional)
 organization_name: EOS Dublin
 logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
 timezone: Europe/Dublin
 website: https://eosdublin.com
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

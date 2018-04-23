@@ -13,25 +13,54 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: ${config.account_name}
-owner_public_key: ${config.owner_public_key}
-active_public_key: ${config.active_public_key}
-block_signing_key: ${config.block_signing_key}
+eosio_account_name: ${config.eosio_account_name || config.account_name}
 
-# Contact (Optional)
-telegram_user: ${config.telegram_user}
-keybase_user: ${config.keybase_user || ''}
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: ${config.owner_public_key || config.eosio_initial_authority.owner.keys[0].public_key}
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: ${config.active_public_key || config.eosio_initial_authority.active.keys[0].public_key}
+      weight: 1
 
 # Server Config (Optional)
-domain: ${config.domain || ''}
-http: ${config.http || ''}
-p2p: ${config.p2p || ''}
-agent_name: ${config.agent_name || ''}
+eosio_http_host: ${config.eosio_http_host || ''}
+eosio_http_port: ${config.eosio_http_port || ''}
+eosio_https_host: ${config.eosio_https_host || config.domain || ''}
+eosio_https_port: ${config.eosio_https_port || config.http || ''}
+eosio_p2p_host: ${config.eosio_p2p_host || config.domain || ''}
+eosio_p2p_port: ${config.eosio_p2p_port || config.p2p || ''}
+
+# Encryption (Optional)
+pgp_public_key: ${config.pgp_public_key || ''}
+
+# Social (Optional)
+social_twitter: ${config.social_twitter || ''}
+social_telegram: ${config.telegram_user || config.social_telegram || ''}
+social_facebook: ${config.social_facebook || ''}
+social_github: ${config.social_github || ''}
+social_youtube: ${config.social_youtube || ''}
+social_keybase: ${config.keybase_user || config.social_keybase || ''}
 
 # Organization (Optional)
 organization_name: ${config.organization_name || ''}
 logo_url: ${config.logo_url || ''}
 timezone: ${config.timezone || ''}
 website: ${config.website || ''}
+introduction_post_url: ${config.introduction_post_url || ''}
+organization_tagline: ${config.organization_tagline || ''}
+
+# Email (Optional)
+email_support: ${config.email_support || ''}
+email_abuse: ${config.email_abuse || ''}
+email_tech: ${config.email_tech || ''}
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
 `)
 })

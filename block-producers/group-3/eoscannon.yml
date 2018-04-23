@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eoscannon
-owner_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
-active_public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
-block_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+eosio_account_name: eoscannon
 
-# Contact (Optional)
-telegram_user: Luckybean
-keybase_user: luckybean
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7VRAg5UDtdFYofS7Qk
+      weight: 1
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
-agent_name: EOS Cannon
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
+eosio_p2p_port: 
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Luckybean
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: luckybean
 
 # Organization (Optional)
 organization_name: EOSCannon
 logo_url: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png
-timezone:
+timezone: 
 website: https://eoscannon.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

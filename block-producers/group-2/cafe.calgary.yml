@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: cafe.calgary
-owner_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
-active_public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
-block_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+eosio_account_name: cafe.calgary
 
-# Contact (Optional)
-telegram_user: n_doy
-keybase_user: eoscalgary
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+      weight: 1
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
-agent_name: EOS Cafe Calgary
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
+eosio_p2p_port: 
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: n_doy
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: eoscalgary
 
 # Organization (Optional)
 organization_name: EOS Cafe Calgary
-logo_url:
-timezone:
+logo_url: 
+timezone: 
 website: https://eos.cafe
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

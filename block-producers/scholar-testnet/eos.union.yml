@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.union
-owner_public_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
-active_public_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
-block_signing_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
+eosio_account_name: eos.union
 
-# Contact (Optional)
-telegram_user: heipacker
-keybase_user: heipacker
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
+      weight: 1
 
 # Server Config (Optional)
-domain: testnet.eos.ren
-http: 443
-p2p: 9876
-agent_name: EOSUnion
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: testnet.eos.ren
+eosio_https_port: 443
+eosio_p2p_host: testnet.eos.ren
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: heipacker
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: heipacker
 
 # Organization (Optional)
 organization_name: eos-union
 logo_url: http://www.eos.ren/unionlogo/eosunion.jpg
 timezone: 
 website: http://www.eos.ren
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

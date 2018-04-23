@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: crypto.lions
-owner_public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
-active_public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
-block_signing_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
+eosio_account_name: crypto.lions
 
-# Contact (Optional)
-telegram_user: Bohdan
-keybase_user: cryptolions
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4AMFyCvXUZugdRarxA
+      weight: 1
 
 # Server Config (Optional)
-domain: scholartestnet.cryptolions.io
-http: 8911
-p2p: 9900
-agent_name: CryptoLions
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: scholartestnet.cryptolions.io
+eosio_https_port: 8911
+eosio_p2p_host: scholartestnet.cryptolions.io
+eosio_p2p_port: 9900
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Bohdan
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: cryptolions
 
 # Organization (Optional)
 organization_name: CryptoLions.io
 logo_url: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png
 timezone: +2GMT
 website: http://cryptolions.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
