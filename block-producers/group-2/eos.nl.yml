@@ -1,0 +1,43 @@
+# Block Producer Account (Required)
+eosio_account_name: eos.nl
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS5E6qVDEVFe9ZE9fPxWTCdjTVcbxH11K5PqwZPPFwfFqwfD5DrY
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS5E6qVDEVFe9ZE9fPxWTCdjTVcbxH11K5PqwZPPFwfFqwfD5DrY
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host: 52.58.245.131
+eosio_http_port: 8888
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 52.58.245.131
+eosio_p2p_port: 9876
+
+
+# Social (Optional)
+social_twitter: https://twitter.com/EosNl
+social_steem: https://steemit.com/@eos-nl
+
+# Organization (Optional)
+organization_name: EOS - NL
+timezone: Europe/Amsterdam
+website: https://eos-nl.net
+introduction_post_url: https://steemit.com/eos/@eos-nl/eos-nl-announces-candidacy-for-blockproducer
+organization_tagline: Build it well with EOS - NL
+
+# Email (Optional)
+email_support: info@eos-nl.net
+email_abuse: info@eos-nl.net
+email_tech: info@eos-nl.net
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
