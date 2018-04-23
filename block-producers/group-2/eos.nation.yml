@@ -18,22 +18,22 @@ eosio_initial_authority:
       weight: 1
 
 # Server Config (Optional)
-eosio_http_host: 
-eosio_http_port: 
-eosio_https_host: group2.eosnation.io
-eosio_https_port: 8888
+eosio_http_host: group2.eosnation.io
+eosio_http_port: 8888
+eosio_https_host:
+eosio_https_port:
 eosio_p2p_host: group2.eosnation.io
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key: 
+pgp_public_key:
 
 # Social (Optional)
-social_twitter: 
+social_twitter: EOS_Nation
 social_telegram: DenisCarriere
-social_facebook: 
-social_github: 
-social_youtube: 
+social_facebook: groups/eosnation
+social_github: eos-nation
+social_youtube: UCXgAY9DyooykrubRXw3xK1g
 social_keybase: deniscarriere
 
 # Organization (Optional)
@@ -41,13 +41,13 @@ organization_name: EOS Nation
 logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
 timezone: America/Toronto
 website: https://eosnation.io
-introduction_post_url: 
-organization_tagline: 
+introduction_post_url: https://steemit.com/eos/@daverex/eos-nation-founding-eos-block-producer-candidate
+organization_tagline: Building our Future One Block at a Time
 
 # Email (Optional)
-email_support: 
-email_abuse: 
-email_tech: 
+email_support: info@eosnation.io
+email_abuse:
+email_tech:
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
