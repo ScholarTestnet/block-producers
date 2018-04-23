@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: ankh2054
+social_telegram: https://t.me/ankh2054
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: ankh2054
+social_keybase: https://keybase.io/ankh2054
 
 # Organization (Optional)
 organization_name: EOS42

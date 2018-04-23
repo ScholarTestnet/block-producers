@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: Ralf Weinand - EOS Sydney
+social_telegram: 
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: eosyd
+social_keybase: https://keybase.io/eosyd
 
 # Organization (Optional)
 organization_name: eos-sydney

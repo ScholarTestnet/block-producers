@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: robinwen
+social_telegram: https://t.me/robinwen
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: superoneio
+social_keybase: https://keybase.io/superoneio
 
 # Organization (Optional)
 organization_name: SuperONE.io

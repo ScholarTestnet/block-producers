@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: n_doy
+social_telegram: https://t.me/n_doy
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: eoscalgary
+social_keybase: https://keybase.io/eoscalgary
 
 # Organization (Optional)
 organization_name: eos-cafe-calgary

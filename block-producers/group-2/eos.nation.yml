@@ -20,21 +20,21 @@ eosio_initial_authority:
 # Server Config (Optional)
 eosio_http_host: group2.eosnation.io
 eosio_http_port: 8888
-eosio_https_host:
-eosio_https_port:
+eosio_https_host: 
+eosio_https_port: 
 eosio_p2p_host: group2.eosnation.io
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key:
+pgp_public_key: 
 
 # Social (Optional)
-social_twitter: EOS_Nation
-social_telegram: DenisCarriere
-social_facebook: groups/eosnation
-social_github: eos-nation
-social_youtube: UCXgAY9DyooykrubRXw3xK1g
-social_keybase: deniscarriere
+social_twitter: https://twitter.com/EOS_Nation
+social_telegram: https://t.me/DenisCarriere
+social_facebook: https://facebook.com/groups/eosnation
+social_github: https://facebook.com/eos-nation
+social_youtube: https://www.youtube.com/channel/UCXgAY9DyooykrubRXw3xK1g
+social_keybase: https://keybase.io/deniscarriere
 
 # Organization (Optional)
 organization_name: EOS Nation
@@ -46,8 +46,8 @@ organization_tagline: Building our Future One Block at a Time
 
 # Email (Optional)
 email_support: info@eosnation.io
-email_abuse:
-email_tech:
+email_abuse: 
+email_tech: 
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

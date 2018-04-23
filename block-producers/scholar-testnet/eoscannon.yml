@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: Luckybean
+social_telegram: https://t.me/Luckybean
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: luckybean
+social_keybase: https://keybase.io/luckybean
 
 # Organization (Optional)
 organization_name: EOSCannon

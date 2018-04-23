@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: 
-social_telegram: DenisCarriere
+social_telegram: https://t.me/DenisCarriere
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: deniscarriere
+social_keybase: https://keybase.io/deniscarriere
 
 # Organization (Optional)
 organization_name: EOS Nation
