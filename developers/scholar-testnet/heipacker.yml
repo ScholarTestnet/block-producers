@@ -1,11 +1,29 @@
 # EOS Scholar - Developers
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
-account_name: heipacker
-owner_public_key: EOS7pFNNF2xL84ZASqEAdP2XhY2VEdm2gt6S3CCxPEMm4J3bTEEG8
-active_public_key: EOS7pFNNF2xL84ZASqEAdP2XhY2VEdm2gt6S3CCxPEMm4J3bTEEG8
+# Block Producer Account (Required)
+eosio_account_name: heipacker
 
-# Primary Contact (Optional)
-telegram_user: heipacker
-keybase_user: heipacker
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7pFNNF2xL84ZASqEAdP2XhY2VEdm2gt6S3CCxPEMm4J3bTEEG8
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7pFNNF2xL84ZASqEAdP2XhY2VEdm2gt6S3CCxPEMm4J3bTEEG8
+      weight: 1
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: heipacker
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: heipacker

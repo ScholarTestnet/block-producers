@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.sydney
-owner_public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
-active_public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
-block_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+eosio_account_name: eos.sydney
 
-# Contact (Optional)
-telegram_user: Ralf Weinand - EOS Sydney
-keybase_user: eosyd
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPaVFwJYvMzw4XybLBAb
+      weight: 1
 
 # Server Config (Optional)
-domain: scholar.eosyd.io
-http: 443
-p2p: 9876
-agent_name: EOS Sydney
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: scholar.eosyd.io
+eosio_https_port: 443
+eosio_p2p_host: scholar.eosyd.io
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Ralf Weinand - EOS Sydney
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: eosyd
 
 # Organization (Optional)
 organization_name: eos-sydney
 logo_url: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png
 timezone: 
 website: https://eosyd.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

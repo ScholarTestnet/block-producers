@@ -1,17 +1,29 @@
 # EOS Scholar - Developers
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
-account_name: wuyahuang
-owner_public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
-active_public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
+# Block Producer Account (Required)
+eosio_account_name: wuyahuang
 
-# Primary Contact (Optional)
-telegram_user: wuyahuang
-keybase_user: wuyahuang
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
+      weight: 1
 
-# Organization (Optional)
-organization_name: meet-one
-logo_url: https://meet.one/assets/MEET.png
-timezone: China/Beijing
-website: https://meet.one
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: wuyahuang
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: wuyahuang

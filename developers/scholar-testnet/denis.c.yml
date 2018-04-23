@@ -1,17 +1,29 @@
 # EOS Scholar - Developers
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
-account_name: denis.c
-owner_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
-active_public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+# Block Producer Account (Required)
+eosio_account_name: denis.c
 
-# Primary Contact (Optional)
-telegram_user: DenisCarriere
-keybase_user: deniscarriere
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmooz8AmyiDhTiaC1Syz
+      weight: 1
 
-# Organization (Optional)
-organization_name: eos-nation
-logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png
-timezone: America/Toronto
-website: https://eosnation.io
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: DenisCarriere
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: deniscarriere

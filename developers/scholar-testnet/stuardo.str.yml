@@ -1,10 +1,29 @@
 # EOS Scholar - Developers
 # https://github.com/ScholarTestnet
 
-# EOS Accounts (Required)
-account_name: stuardo.str
-owner_public_key: EOS8DjTVFfhC5V1uJ1ZgySGKpAE17kQjcDEdbgjGYumqdo6QfUVoG
-active_public_key: EOS5kafaTzgZj9oiDyTaMDYi4UAXfMnosWPbJpyCYd4xQpEDHFZxq
+# Block Producer Account (Required)
+eosio_account_name: stuardo.str
 
-# Primary Contact (Optional)
-telegram_user: stuardo_str
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8DjTVFfhC5V1uJ1ZgySGKpAE17kQjcDEdbgjGYumqdo6QfUVoG
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS5kafaTzgZj9oiDyTaMDYi4UAXfMnosWPbJpyCYd4xQpEDHFZxq
+      weight: 1
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: stuardo_str
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: 

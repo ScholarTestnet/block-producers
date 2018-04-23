@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eos.nairobi
-owner_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
-active_public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
-block_signing_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+eosio_account_name: eos.nairobi
 
-# Contact (Optional)
-telegram_user: skypee
-keybase_user: peterokwara
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS6aX9Gd1QP5ombMoDqSF2roXVt6azj7voc5QSjL55Qw45vAKFPK
+      weight: 1
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
-agent_name: EOS Nairobi
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
+eosio_p2p_port: 
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: skypee
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: peterokwara
 
 # Organization (Optional)
 organization_name: eos-nairobi
-logo_url:
-timezone:
+logo_url: 
+timezone: 
 website: http://eosnairobi.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

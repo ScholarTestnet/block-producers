@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: staked
-owner_public_key: EOS4tyhMnKdHZNNd7HaNTagL91FQZHHNi4LZzeEcLxMSkDtwwwvTM
-active_public_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
-block_signing_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
+eosio_account_name: staked
 
-# Contact (Optional)
-telegram_user: timogilvie
-keybase_user: timogilvie
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS4tyhMnKdHZNNd7HaNTagL91FQZHHNi4LZzeEcLxMSkDtwwwvTM
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS5jds9EmCk6wpcJQURp4aYq6M318gLQZTT1aUVoU7yWVYSjPDE1
+      weight: 1
 
 # Server Config (Optional)
-domain: eos.coinstakes.io
-http: 443
-p2p: 9876
-agent_name: staked
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: eos.coinstakes.io
+eosio_https_port: 443
+eosio_p2p_host: eos.coinstakes.io
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: timogilvie
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: timogilvie
 
 # Organization (Optional)
 organization_name: Staked
 logo_url: 
 timezone: 
 website: https://staked.us
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

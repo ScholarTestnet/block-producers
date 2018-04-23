@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: eosocal
-owner_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
-active_public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
-block_signing_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+eosio_account_name: eosocal
 
-# Contact (Optional)
-telegram_user: gmory
-keybase_user: gmory
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf
+      weight: 1
 
 # Server Config (Optional)
-domain: testnet.eosocal.io
-http: 443
-p2p: 9876
-agent_name: EOSoCal
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: testnet.eosocal.io
+eosio_https_port: 443
+eosio_p2p_host: testnet.eosocal.io
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: gmory
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: gmory
 
 # Organization (Optional)
 organization_name: eosocal
 logo_url: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png
 timezone: 
 website: https://eosocal.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

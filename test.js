@@ -9,32 +9,15 @@ test('validate block-producers configs', t => {
     const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
     const {name} = path.parse(filepath)
     const requiredFields = [
-      'account_name',
-      'owner_public_key',
-      'active_public_key',
-      'block_signing_key',
+      'eosio_account_name',
+      'eosio_initial_authority',
     ];
-    const optionalFields = [
-      'telegram_user',
-      'keybase_user',
-      'domain',
-      'http',
-      'p2p',
-      'agent_name',
-      'organization_name',
-      'logo_url',
-      'timezone',
-      'website'
-    ];
-    testAccount(t, config.account_name)
+    testAccount(t, config.eosio_account_name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
       if (!config[field]) t.fail(`${name} missing ${field}`);
-    })
-    // Optional Fields (Skip)
-    optionalFields.forEach(field => {
-      if (!config[field]) t.skip(`${name} missing ${field}`);
+      else t.pass(`${name} includes ${field}`)
     })
   })
   t.end();
@@ -45,25 +28,15 @@ test('validate developers configs', t => {
     const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
     const {name} = path.parse(filepath)
     const requiredFields = [
-      'account_name',
-      'owner_public_key',
-      'active_public_key'
-    ];
-    const optionalFields = [
-      'organization_name',
-      'logo_url',
-      'timezone',
-      'website'
+      'eosio_account_name',
+      'eosio_initial_authority',
     ];
     testAccount(t, config.account_name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
       if (!config[field]) t.fail(`${name} missing ${field}`);
-    })
-    // Optional Fields (Skip)
-    optionalFields.forEach(field => {
-      if (!config[field]) t.skip(`${name} missing ${field}`);
+      else t.pass(`${name} includes ${field}`)
     })
   })
   t.end();

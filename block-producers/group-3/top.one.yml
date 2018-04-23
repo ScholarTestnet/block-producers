@@ -2,23 +2,52 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-account_name: top.one
-owner_public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
-active_public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
-block_signing_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+eosio_account_name: top.one
 
-# Contact (Optional)
-telegram_user: Good L
-keybase_user: topone
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8MyARJkhuVN9yc698uFVHpFy6N7V69FWpPMrbwDRshHwtegKkz
+      weight: 1
 
 # Server Config (Optional)
-domain:
-http:
-p2p:
-agent_name: TOP.ONE
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
+eosio_p2p_port: 
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: Good L
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: topone
 
 # Organization (Optional)
 organization_name: top-one
 logo_url: https://static.top.one/img/logo_t1.jpg
-timezone:
+timezone: 
 website: https://top.one/index
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
