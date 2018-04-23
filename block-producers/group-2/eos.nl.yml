@@ -1,5 +1,5 @@
 # Block Producer Account (Required)
-eosio_account_name: eos-nl
+eosio_account_name: eos.nl
 
 # Authority (Required)
 eosio_initial_authority:
