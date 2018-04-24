@@ -15,7 +15,7 @@ telegram_user: ahlifei
 keybase_user: ahlifei
 
 # Server Config (Optional)
-domain: eosnet.wancloud.cloud
+domain: scholarnet.wancloud.cloud
 https: 443
 p2p: 9876
 agent_name: leif
