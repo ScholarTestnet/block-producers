@@ -17,7 +17,9 @@ BLOCK_PRODUCERS_CONFIG = BLOCK_PRODUCERS_CONFIG.filter((config, index) => index 
 // Define Set Producer JSON config
 const setprods = {
   "version": "12345",
-  "producers": BLOCK_PRODUCERS_CONFIG.map(({producer_name, block_signing_key}) => {
+  "producers": BLOCK_PRODUCERS_CONFIG.map(({eosio_account_name, eosio_initial_authority}) => {
+    const producer_name = eosio_account_name
+    const block_signing_key = eosio_initial_authority.owner.keys[0].public_key
     return {producer_name, block_signing_key}
   })
 }
