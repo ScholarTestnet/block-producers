@@ -1,0 +1,53 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: chainpool
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7GEL7tGYSjLXJhnHhupeJY2grTz2U3SXwLRxFqrcvfryyPzauN
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7GEL7tGYSjLXJhnHhupeJY2grTz2U3SXwLRxFqrcvfryyPzauN
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host: dev.chainpool.io
+eosio_http_port: 7780
+eosio_https_host:
+eosio_https_port:
+eosio_p2p_host: dev.chainpool.io
+eosio_p2p_port: 7781
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: https://twitter.com/chainpool_io
+social_telegram: https://t.me/chainpool
+social_facebook: 
+social_github: https://github.com/chainpool
+social_youtube: 
+social_keybase:
+
+# Organization (Optional)
+organization_name: ChainPool.io
+logo_url: https://user-images.githubusercontent.com/8850248/37884039-8e761388-30e0-11e8-85eb-7ab82845a7c1.png
+timezone:
+website: https://chainpool.io
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
