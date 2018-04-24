@@ -2,7 +2,7 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-eosio_account_name: cafe.calgary
+eosio_account_name: eos.cafe
 
 # Authority (Required)
 eosio_initial_authority:
@@ -29,25 +29,25 @@ eosio_p2p_port:
 pgp_public_key: 
 
 # Social (Optional)
-social_twitter: 
-social_telegram: https://t.me/n_doy
+social_twitter: https://twitter.com/eoscafe
+social_telegram: https://t.me/eoscafe
 social_facebook: 
-social_github: 
-social_youtube: 
+social_github: https://github.com/swandoyo/EOS-Cafe
+social_youtube: https://www.youtube.com/channel/UCRAk7pQm_i2i3P0NoC3KRIA/videos
 social_keybase: https://keybase.io/eoscalgary
 
 # Organization (Optional)
 organization_name: EOS Cafe Calgary
-logo_url: 
-timezone: 
+logo_url: "EOS-Cafe/eos cafe icon mark.png"
+timezone: UTC -7
 website: https://eos.cafe
 introduction_post_url: 
 organization_tagline: 
 
 # Email (Optional)
-email_support: 
-email_abuse: 
-email_tech: 
+email_support: swandoyohartono@gmail.com
+email_abuse: swandoyohartono@gmail.com
+email_tech: swandoyohartono@gmail.com
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
