@@ -1,0 +1,53 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: wancloud
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22SmuLqxVcdrt
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyNFyah22SmuLqxVcdrt
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host:
+eosio_http_port:
+eosio_https_host: scholarnet.wancloud.cloud
+eosio_https_port: 443
+eosio_p2p_host: scholarnet.wancloud.cloud
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key:
+
+# Social (Optional)
+social_twitter:
+social_telegram: https://t.me/ahlifei
+social_facebook:
+social_github:
+social_youtube:
+social_keybase:
+
+# Organization (Optional)
+organization_name: Wancloud
+logo_url:
+timezone:
+website: http://www.wancloud.cloud/
+introduction_post_url:
+organization_tagline:
+
+# Email (Optional)
+email_support:
+email_abuse:
+email_tech:
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
