@@ -18,36 +18,40 @@ eosio_initial_authority:
       weight: 1
 
 # Server Config (Optional)
-eosio_http_host:
-eosio_http_port:
+eosio_http_host: 
+eosio_http_port: 
 eosio_https_host: testeos.top.one
 eosio_https_port: 443
 eosio_p2p_host: testeos.top.one
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key:
+pgp_public_key: 
 
 # Social (Optional)
-social_twitter:
-social_telegram:
-social_facebook:
-social_github:
-social_youtube:
+social_twitter: 
+social_telegram: 
+social_facebook: 
+social_github: 
+social_youtube: 
 social_keybase: https://keybase.io/topone
+
+# Geographic Location (Optional)
+latitude: 35.685
+longitude: 139.7514
 
 # Organization (Optional)
 organization_name: top-one
 logo_url: https://static.top.one/img/logo_t1.jpg
-timezone:
+timezone: 
 website: https://top.one/index
-introduction_post_url:
-organization_tagline:
+introduction_post_url: 
+organization_tagline: 
 
 # Email (Optional)
-email_support:
-email_abuse:
-email_tech:
+email_support: 
+email_abuse: 
+email_tech: 
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

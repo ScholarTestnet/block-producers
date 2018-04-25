@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/deniscarriere
 
+# Geographic Location (Optional)
+latitude: 45.5
+longitude: -73.5833
+
 # Organization (Optional)
 organization_name: EOS Nation
 logo_url: https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png

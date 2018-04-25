@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/eosdublin
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: EOS Dublin
 logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true

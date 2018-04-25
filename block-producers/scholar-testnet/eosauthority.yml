@@ -20,34 +20,38 @@ eosio_initial_authority:
 # Server Config (Optional)
 eosio_http_host: testnet-scholar.eosauthority.com
 eosio_http_port: 8888
-eosio_https_host:
-eosio_https_port:
-eosio_p2p_host:
+eosio_https_host: 
+eosio_https_port: 
+eosio_p2p_host: 
 eosio_p2p_port: 9543
 
 # Encryption (Optional)
-pgp_public_key:
+pgp_public_key: 
 
 # Social (Optional)
-social_twitter:
+social_twitter: 
 social_telegram: https://t.me/telepound
-social_facebook:
-social_github:
-social_youtube:
+social_facebook: 
+social_github: 
+social_youtube: 
 social_keybase: https://keybase.io/eosauthority
+
+# Geographic Location (Optional)
+latitude: 51.5142
+longitude: -0.0931
 
 # Organization (Optional)
 organization_name: EOS Authority
-logo_url:
-timezone:
-website:
-introduction_post_url:
-organization_tagline:
+logo_url: 
+timezone: 
+website: 
+introduction_post_url: 
+organization_tagline: 
 
 # Email (Optional)
-email_support:
-email_abuse:
-email_tech:
+email_support: 
+email_abuse: 
+email_tech: 
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

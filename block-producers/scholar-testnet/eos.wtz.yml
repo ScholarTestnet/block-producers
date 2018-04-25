@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: 
 
+# Geographic Location (Optional)
+latitude: 39.0853
+longitude: -77.6452
+
 # Organization (Optional)
 organization_name: EOS WTZ
 logo_url: https://steemitimages.com/DQmNnQVAALWD6zhkTGBLS8z1SWs9Xr3wfzu8NvcdADYJZyT/IMG_0991.png

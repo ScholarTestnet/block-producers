@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/meetone
 
+# Geographic Location (Optional)
+latitude: 35.685
+longitude: 139.7514
+
 # Organization (Optional)
 organization_name: meet-one
 logo_url: https://meet.one/assets/MEET.png

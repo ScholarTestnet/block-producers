@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/eosyd
 
+# Geographic Location (Optional)
+latitude: -33.8615
+longitude: 151.2055
+
 # Organization (Optional)
 organization_name: eos-sydney
 logo_url: https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png

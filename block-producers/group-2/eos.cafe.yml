@@ -36,9 +36,13 @@ social_github: https://github.com/swandoyo/EOS-Cafe
 social_youtube: https://www.youtube.com/channel/UCRAk7pQm_i2i3P0NoC3KRIA/videos
 social_keybase: https://keybase.io/eoscalgary
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: EOS Cafe Calgary
-logo_url: "EOS-Cafe/eos cafe icon mark.png"
+logo_url: EOS-Cafe/eos cafe icon mark.png
 timezone: UTC -7
 website: https://eos.cafe
 introduction_post_url: 

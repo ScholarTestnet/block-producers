@@ -20,8 +20,8 @@ eosio_initial_authority:
 # Server Config (Optional)
 eosio_http_host: dev.chainpool.io
 eosio_http_port: 7780
-eosio_https_host:
-eosio_https_port:
+eosio_https_host: 
+eosio_https_port: 
 eosio_p2p_host: dev.chainpool.io
 eosio_p2p_port: 7781
 
@@ -34,12 +34,16 @@ social_telegram: https://t.me/chainpool
 social_facebook: 
 social_github: https://github.com/chainpool
 social_youtube: 
-social_keybase:
+social_keybase: 
+
+# Geographic Location (Optional)
+latitude: 35.5833
+longitude: 139.7483
 
 # Organization (Optional)
 organization_name: ChainPool.io
 logo_url: https://user-images.githubusercontent.com/8850248/37884039-8e761388-30e0-11e8-85eb-7ab82845a7c1.png
-timezone:
+timezone: 
 website: https://chainpool.io
 introduction_post_url: 
 organization_tagline: 

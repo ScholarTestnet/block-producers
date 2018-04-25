@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/worbli
 
+# Geographic Location (Optional)
+latitude: 39.9653
+longitude: -83.0235
+
 # Organization (Optional)
 organization_name: worbli
 logo_url: 

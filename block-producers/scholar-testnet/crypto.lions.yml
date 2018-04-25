@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/cryptolions
 
+# Geographic Location (Optional)
+latitude: 50.4333
+longitude: 30.5167
+
 # Organization (Optional)
 organization_name: CryptoLions.io
 logo_url: https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png

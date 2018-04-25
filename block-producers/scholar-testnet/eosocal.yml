@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/gmory
 
+# Geographic Location (Optional)
+latitude: 37.3394
+longitude: -121.895
+
 # Organization (Optional)
 organization_name: eosocal
 logo_url: https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png

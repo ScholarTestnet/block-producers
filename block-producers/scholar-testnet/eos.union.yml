@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/heipacker
 
+# Geographic Location (Optional)
+latitude: 37.526
+longitude: -122.3558
+
 # Organization (Optional)
 organization_name: eos-union
 logo_url: http://www.eos.ren/unionlogo/eosunion.jpg

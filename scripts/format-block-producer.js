@@ -50,6 +50,10 @@ social_github: ${config.social_github || ''}
 social_youtube: ${config.social_youtube || ''}
 social_keybase: ${config.social_keybase || ''}
 
+# Geographic Location (Optional)
+latitude: ${config.latitude || '' }
+longitude: ${config.longitude || '' }
+
 # Organization (Optional)
 organization_name: ${config.organization_name || ''}
 logo_url: ${config.logo_url || ''}

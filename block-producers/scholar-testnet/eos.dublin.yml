@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/eosdublin
 
+# Geographic Location (Optional)
+latitude: 53.3331
+longitude: -6.2489
+
 # Organization (Optional)
 organization_name: eos-dublin
 logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true

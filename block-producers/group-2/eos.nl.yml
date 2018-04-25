@@ -1,3 +1,6 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
 # Block Producer Account (Required)
 eosio_account_name: eos.nl
 
@@ -22,13 +25,24 @@ eosio_https_port:
 eosio_p2p_host: 52.58.245.131
 eosio_p2p_port: 9876
 
+# Encryption (Optional)
+pgp_public_key: 
 
 # Social (Optional)
 social_twitter: https://twitter.com/EosNl
-social_steem: https://steemit.com/@eos-nl
+social_telegram: 
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: 
+
+# Geographic Location (Optional)
+latitude: 50.1167
+longitude: 8.6833
 
 # Organization (Optional)
 organization_name: EOS - NL
+logo_url: 
 timezone: Europe/Amsterdam
 website: https://eos-nl.net
 introduction_post_url: https://steemit.com/eos/@eos-nl/eos-nl-announces-candidacy-for-blockproducer

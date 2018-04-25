@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: 
 
+# Geographic Location (Optional)
+latitude: 22.25
+longitude: 114.1667
+
 # Organization (Optional)
 organization_name: antpool
 logo_url: https://eosantpool.com/ant_icon.ico
