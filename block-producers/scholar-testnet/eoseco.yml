@@ -30,11 +30,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: https://twitter.com/Eoseco2018 
-social_telegram: t.me/eoseco
+social_telegram: https://t.me/eoseco
 social_facebook: https://www.facebook.com/eoseco2018 
 social_github: https://github.com/Eoseco
 social_youtube: 
-social_keybase: eoseco
+social_keybase: https://keybase.io/eoseco
 
 # Organization (Optional)
 organization_name: EOSeco
