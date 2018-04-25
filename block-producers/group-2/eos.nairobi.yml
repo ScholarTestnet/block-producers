@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/peterokwara
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: eos-nairobi
 logo_url: 

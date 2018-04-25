@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/ankh2054
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: EOS42
 logo_url: 

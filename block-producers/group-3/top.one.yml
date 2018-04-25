@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/topone
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: top-one
 logo_url: https://static.top.one/img/logo_t1.jpg

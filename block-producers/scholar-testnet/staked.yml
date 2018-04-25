@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/timogilvie
 
+# Geographic Location (Optional)
+latitude: 39.0853
+longitude: -77.6452
+
 # Organization (Optional)
 organization_name: Staked
 logo_url: 

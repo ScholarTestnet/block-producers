@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/bitspace
 
+# Geographic Location (Optional)
+latitude: 32.7831
+longitude: -96.8067
+
 # Organization (Optional)
 organization_name: bitspace
 logo_url: https://avatars0.githubusercontent.com/u/22501691?s=200&v=4

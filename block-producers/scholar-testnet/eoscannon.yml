@@ -36,6 +36,10 @@ social_github:
 social_youtube: 
 social_keybase: https://keybase.io/luckybean
 
+# Geographic Location (Optional)
+latitude: 39.9653
+longitude: -83.0235
+
 # Organization (Optional)
 organization_name: EOSCannon
 logo_url: https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png

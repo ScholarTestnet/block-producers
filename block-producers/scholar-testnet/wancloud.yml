@@ -18,36 +18,40 @@ eosio_initial_authority:
       weight: 1
 
 # Server Config (Optional)
-eosio_http_host:
-eosio_http_port:
+eosio_http_host: 
+eosio_http_port: 
 eosio_https_host: scholarnet.wancloud.cloud
 eosio_https_port: 443
 eosio_p2p_host: scholarnet.wancloud.cloud
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key:
+pgp_public_key: 
 
 # Social (Optional)
-social_twitter:
+social_twitter: 
 social_telegram: https://t.me/ahlifei
-social_facebook:
-social_github:
-social_youtube:
-social_keybase:
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: 
+
+# Geographic Location (Optional)
+latitude: 33.9958
+longitude: -117.8189
 
 # Organization (Optional)
 organization_name: Wancloud
-logo_url:
-timezone:
+logo_url: 
+timezone: 
 website: http://www.wancloud.cloud/
-introduction_post_url:
-organization_tagline:
+introduction_post_url: 
+organization_tagline: 
 
 # Email (Optional)
-email_support:
-email_abuse:
-email_tech:
+email_support: 
+email_abuse: 
+email_tech: 
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
