@@ -14,12 +14,13 @@ test('validate block-producers configs', t => {
       'eosio_initial_authority',
     ];
     testAccount(t, config.eosio_account_name, name)
-    testSocial(t, config.social_twitter, name)
-    testSocial(t, config.social_telegram, name)
-    testSocial(t, config.social_facebook, name)
-    testSocial(t, config.social_github, name)
-    testSocial(t, config.social_youtube, name)
-    testSocial(t, config.social_keybase, name)
+    testUrl(t, config.logo_url, name + ' logo_url')
+    testUrl(t, config.social_twitter, name + ' twitter')
+    testUrl(t, config.social_telegram, name + ' telegram')
+    testUrl(t, config.social_facebook, name + ' facebook')
+    testUrl(t, config.social_github, name + ' github')
+    testUrl(t, config.social_youtube, name + ' youtube')
+    testUrl(t, config.social_keybase, name + ' keybase')
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -80,5 +81,25 @@ function testSocial(t, account_name, name) {
 
     // Account must be fully qualified domain
     if (!url.parse(account_name).protocol) t.fail(`${name} => social account must use a fully qualified domain URL`)
+  }
+}
+
+/**
+ * Test URL
+ *
+ * @param {*} t Test
+ * @param {string} fullUrl Account Name
+ * @param {string} name Name
+ */
+function testUrl(t, fullUrl, name) {
+  if (fullUrl) {
+    // No empty spaces
+    if (fullUrl.match(' ')) t.fail(`${name} => ${fullUrl} cannot contain white spaces`)
+
+    // Account must be fully qualified domain
+    if (!url.parse(fullUrl).protocol) t.fail(`${name} => url must use a fully qualified domain URL`)
+
+    // URL must be HTTPS
+    if (url.parse(fullUrl).protocol !== 'https:') t.fail(`${name} => url must be HTTPS (SSL)`)
   }
 }

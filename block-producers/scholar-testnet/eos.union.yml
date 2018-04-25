@@ -18,22 +18,22 @@ eosio_initial_authority:
       weight: 1
 
 # Server Config (Optional)
-eosio_http_host: 
-eosio_http_port: 
+eosio_http_host:
+eosio_http_port:
 eosio_https_host: testnet.eos.ren
 eosio_https_port: 443
 eosio_p2p_host: testnet.eos.ren
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key: 
+pgp_public_key:
 
 # Social (Optional)
-social_twitter: 
+social_twitter:
 social_telegram: https://t.me/heipacker
-social_facebook: 
-social_github: 
-social_youtube: 
+social_facebook:
+social_github:
+social_youtube:
 social_keybase: https://keybase.io/heipacker
 
 # Geographic Location (Optional)
@@ -42,16 +42,16 @@ longitude: -122.3558
 
 # Organization (Optional)
 organization_name: eos-union
-logo_url: http://www.eos.ren/unionlogo/eosunion.jpg
-timezone: 
+logo_url:
+timezone:
 website: http://www.eos.ren
-introduction_post_url: 
-organization_tagline: 
+introduction_post_url:
+organization_tagline:
 
 # Email (Optional)
-email_support: 
-email_abuse: 
-email_tech: 
+email_support:
+email_abuse:
+email_tech:
 
 # EOS BIOS (Optional)
 # https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
