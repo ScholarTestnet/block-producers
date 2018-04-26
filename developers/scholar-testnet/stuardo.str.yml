@@ -16,13 +16,20 @@ eosio_initial_authority:
     keys:
     - public_key: EOS5kafaTzgZj9oiDyTaMDYi4UAXfMnosWPbJpyCYd4xQpEDHFZxq
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Encryption (Optional)
 pgp_public_key: 
 
 # Social (Optional)
 social_twitter: 
-social_telegram: stuardo_str
+social_telegram: https://t.me/stuardo_str
 social_facebook: 
 social_github: 
 social_youtube: 

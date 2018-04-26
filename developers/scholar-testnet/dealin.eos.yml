@@ -16,14 +16,21 @@ eosio_initial_authority:
     keys:
     - public_key: EOS7WNMtKrYYmtSQfb8VyKpBM7LpWiSnZAbJ7tAoShZLKaqqovbiz
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Encryption (Optional)
 pgp_public_key: 
 
 # Social (Optional)
 social_twitter: 
-social_telegram: judeebene
+social_telegram: https://t.me/judeebene
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: judeebene
+social_keybase: https://keybase.io/judeebene

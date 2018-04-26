@@ -16,14 +16,21 @@ eosio_initial_authority:
     keys:
     - public_key: EOS8bziiL4UtMMbXjWsu6VukxbE5HpKoqWyr5Z5zNxPvAY35pBDQu
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Encryption (Optional)
 pgp_public_key: 
 
 # Social (Optional)
 social_twitter: 
-social_telegram: wuyahuang
+social_telegram: https://t.me/wuyahuang
 social_facebook: 
 social_github: 
 social_youtube: 
-social_keybase: wuyahuang
+social_keybase: https://keybase.io/wuyahuang
