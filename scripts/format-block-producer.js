@@ -16,19 +16,26 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-eosio_account_name: ${config.eosio_account_name || config.account_name}
+eosio_account_name: ${config.eosio_account_name}
 
 # Authority (Required)
 eosio_initial_authority:
   owner:
     threshold: 1
     keys:
-    - public_key: ${config.owner_public_key || config.eosio_initial_authority.owner.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.owner.keys[0].public_key}
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: ${config.active_public_key || config.eosio_initial_authority.active.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.active.keys[0].public_key}
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: ${config.eosio_initial_authority.recovery ? config.eosio_initial_authority.recovery.keys[0].public_key : 'eosio'}
+        permission: active
       weight: 1
 
 # Server Config (Optional)

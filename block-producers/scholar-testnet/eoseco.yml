@@ -16,12 +16,19 @@ eosio_initial_authority:
     keys:
     - public_key: EOS85fDTxvb2P6cXuz5nQyaDwTPbemwcw6KyVDmHHZaGFNog5fBCK
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Server Config (Optional)
 eosio_http_host: scholar.eoseco.com
 eosio_http_port: 8888
-eosio_https_host:
-eosio_https_port:
+eosio_https_host: 
+eosio_https_port: 
 eosio_p2p_host: scholar.eoseco.com
 eosio_p2p_port: 9876
 
@@ -29,17 +36,21 @@ eosio_p2p_port: 9876
 pgp_public_key: 
 
 # Social (Optional)
-social_twitter: https://twitter.com/Eoseco2018 
+social_twitter: https://twitter.com/Eoseco2018
 social_telegram: https://t.me/eoseco
-social_facebook: https://www.facebook.com/eoseco2018 
+social_facebook: https://www.facebook.com/eoseco2018
 social_github: https://github.com/Eoseco
 social_youtube: 
 social_keybase: https://keybase.io/eoseco
 
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
 # Organization (Optional)
 organization_name: EOSeco
 logo_url: https://user-images.githubusercontent.com/550895/39282245-98b9a4c8-48d6-11e8-9276-99457ee1f602.png
-timezone:
+timezone: 
 website: http://eoseco.com/
 introduction_post_url: 
 organization_tagline: 
@@ -50,3 +61,4 @@ email_abuse:
 email_tech: 
 
 # EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml

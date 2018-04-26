@@ -16,6 +16,13 @@ eosio_initial_authority:
     keys:
     - public_key: EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Server Config (Optional)
 eosio_http_host: 

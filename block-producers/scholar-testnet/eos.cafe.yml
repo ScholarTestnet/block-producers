@@ -16,22 +16,29 @@ eosio_initial_authority:
     keys:
     - public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Server Config (Optional)
-eosio_http_host:
-eosio_http_port:
+eosio_http_host: 
+eosio_http_port: 
 eosio_https_host: eoscal.wxrepository.ca
 eosio_https_port: 443
 eosio_p2p_host: eoscal.wxrepository.ca
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
-pgp_public_key:
+pgp_public_key: 
 
 # Social (Optional)
 social_twitter: https://twitter.com/eoscafe
 social_telegram: https://t.me/eoscafe
-social_facebook:
+social_facebook: 
 social_github: https://github.com/swandoyo/EOS-Cafe
 social_youtube: https://www.youtube.com/channel/UCRAk7pQm_i2i3P0NoC3KRIA/videos
 social_keybase: https://keybase.io/eoscalgary
@@ -42,11 +49,11 @@ longitude: -119.529
 
 # Organization (Optional)
 organization_name: EOS Cafe Calgary
-logo_url:
+logo_url: 
 timezone: UTC -7
 website: https://eos.cafe
-introduction_post_url:
-organization_tagline:
+introduction_post_url: 
+organization_tagline: 
 
 # Email (Optional)
 email_support: swandoyohartono@gmail.com

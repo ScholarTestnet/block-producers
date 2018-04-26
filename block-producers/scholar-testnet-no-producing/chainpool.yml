@@ -16,6 +16,13 @@ eosio_initial_authority:
     keys:
     - public_key: EOS7GEL7tGYSjLXJhnHhupeJY2grTz2U3SXwLRxFqrcvfryyPzauN
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Server Config (Optional)
 eosio_http_host: dev.chainpool.io
