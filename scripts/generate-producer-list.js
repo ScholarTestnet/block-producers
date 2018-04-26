@@ -20,8 +20,8 @@ glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).forEac
 
   // Rename to Discovery schema
   const producer_name = eosio_account_name
-  const domain = eosio_https_host
-  const http = eosio_https_port
+  const domain = eosio_https_host || config.eosio_http_host
+  const http = eosio_https_port || config.eosio_http_port
   const p2p = eosio_p2p_port
   const telegram_user = social_telegram
   const keybase = social_keybase
