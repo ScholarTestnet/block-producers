@@ -16,14 +16,21 @@ eosio_initial_authority:
     keys:
     - public_key: EOS85fDTxvb2P6cXuz5nQyaDwTPbemwcw6KyVDmHHZaGFNog5fBCK
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Encryption (Optional)
 pgp_public_key: 
 
 # Social (Optional)
 social_twitter: 
-social_telegram: @Joshuaqiu
+social_telegram: https://t.me/@joshuaqiu
 social_facebook: 
-social_github: qiushaoxi
+social_github: https://facebook.com/qiushaoxi
 social_youtube: 
-social_keybase: joshuaqiu
+social_keybase: https://keybase.io/joshuaqiu

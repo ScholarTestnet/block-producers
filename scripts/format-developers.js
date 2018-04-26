@@ -4,10 +4,13 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
+const {refactorSocial} = require('./refactor');
 
 glob.sync(path.join(__dirname, '..', 'developers', '**', '*.yml')).forEach(filepath => {
   const {dir, name, base} = path.parse(filepath)
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
+
+  refactorSocial(config)
 
   fs.writeFileSync(filepath, `# EOS Scholar - Developers
 # https://github.com/ScholarTestnet
@@ -20,12 +23,19 @@ eosio_initial_authority:
   owner:
     threshold: 1
     keys:
-    - public_key: ${config.owner_public_key || config.eosio_initial_authority.owner.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.owner.keys[0].public_key}
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: ${config.active_public_key || config.eosio_initial_authority.active.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.active.keys[0].public_key}
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: ${config.eosio_initial_authority.recovery ? config.eosio_initial_authority.recovery.accounts[0].permission.actor : 'eosio'}
+        permission: active
       weight: 1
 
 # Encryption (Optional)

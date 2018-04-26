@@ -5,6 +5,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 const url = require('url')
+const {refactorSocial} = require('./refactor');
 
 glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(filepath => {
   const {dir, name, base} = path.parse(filepath)
@@ -16,19 +17,26 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-eosio_account_name: ${config.eosio_account_name || config.account_name}
+eosio_account_name: ${config.eosio_account_name}
 
 # Authority (Required)
 eosio_initial_authority:
   owner:
     threshold: 1
     keys:
-    - public_key: ${config.owner_public_key || config.eosio_initial_authority.owner.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.owner.keys[0].public_key}
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: ${config.active_public_key || config.eosio_initial_authority.active.keys[0].public_key}
+    - public_key: ${config.eosio_initial_authority.active.keys[0].public_key}
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: ${config.eosio_initial_authority.recovery ? config.eosio_initial_authority.recovery.accounts[0].permission.actor : 'eosio'}
+        permission: active
       weight: 1
 
 # Server Config (Optional)
@@ -72,34 +80,3 @@ email_tech: ${config.email_tech || ''}
 `)
 })
 
-/**
- * Refactor Social media accounts to Fully qualified domains
- *
- * @param {*} config Config
- */
-function refactorSocial(config) {
-  // Twitter
-  if (config.social_twitter && !url.parse(config.social_twitter).protocol) {
-    config.social_twitter = `https://twitter.com/${config.social_twitter}`
-  }
-  // Telegram
-  if (config.social_telegram && !url.parse(config.social_telegram).protocol) {
-    config.social_telegram = `https://t.me/${config.social_telegram}`
-  }
-  // Facebook
-  if (config.social_facebook && !url.parse(config.social_facebook).protocol) {
-    config.social_facebook = `https://facebook.com/${config.social_facebook}`
-  }
-  // GitHub
-  if (config.social_github && !url.parse(config.social_github).protocol) {
-    config.social_github = `https://facebook.com/${config.social_github}`
-  }
-  // YouTube
-  if (config.social_youtube && !url.parse(config.social_youtube).protocol) {
-    config.social_youtube = `https://www.youtube.com/channel/${config.social_youtube}`
-  }
-  // Keybase
-  if (config.social_keybase && !url.parse(config.social_keybase).protocol) {
-    config.social_keybase = `https://keybase.io/${config.social_keybase}`
-  }
-}

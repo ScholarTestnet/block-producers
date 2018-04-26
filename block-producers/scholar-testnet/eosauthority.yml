@@ -16,6 +16,13 @@ eosio_initial_authority:
     keys:
     - public_key: EOS4uPWabWJGp8bD9XriNjU5bHPZ2fjv5xeYSUqhMGuAMk5n8wrQ5
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # Server Config (Optional)
 eosio_http_host: testnet-scholar.eosauthority.com
