@@ -1,0 +1,36 @@
+# EOS Scholar - Developers
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: ssekhon
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS8Ft5Z3UJ2szTnqHEshP1aGXpmwqciHWCrPsNvKriYbK2u4RDqp
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS8Ft5Z3UJ2szTnqHEshP1aGXpmwqciHWCrPsNvKriYbK2u4RDqp
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: https://t.me/ssekhon
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase:
