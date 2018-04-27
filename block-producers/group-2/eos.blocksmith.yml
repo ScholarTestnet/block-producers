@@ -1,0 +1,63 @@
+# Block Producer Account
+#mainnet: true
+testnet: true
+eosio_account_name: eos.blocksmith
+# Authority
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS5QvrvBadVCt814y4mAUZKibe4B1EhJEe7GvU48HSGE4ATUYZyo
+      weight: 1
+   active:
+     threshold: 1
+     keys:
+   -  public_key: EOS5QvrvBadVCt814y4mAUZKibe4B1EhJEe7GvU48HSGE4ATUYZyo
+      weight: 1
+   recovery:
+    threshold: 1
+    accounts:
+     - permission:
+        actor: eosio
+        permission: active
+       weight: 1
+
+#Server Config
+eosio_http_host: 45.33.52.252
+eosio_http_port: 8888
+eosio_https_host:
+eosio_https_port:
+eosio_p2p_host: 45.33.52.252
+eosio_p2p_port: 9876
+
+# Encryption
+pgp_public_key:
+
+# Social
+social_twitter: https://twitter.com/eosBlockSmith
+social_telegram:  EOS BlockSmith https://t.me/joinchat/FwtiV0tU_Tl-orBNr-uQlw
+social_steemit:  https://steemit.com/@eosblocksmith
+social_medium:  https://medium.com/@eosBlockSmith
+social_facebook:
+social_github: https://github.com/eosBlockSmith
+social_youtube:
+social_keybase:
+
+#Organization
+organization_name: EOS BlockSmith
+logo_url:
+timezone: America/Chicago
+website: https://eosblocksmith.io
+introduction_post_url: https://steemit.com/eos/@eosblocksmith/eos-blocksmith-block-producer-candidate
+organization_tagline: Forging the Future
+
+# Email
+email_support: support@eosblocksmith.io
+email_abuse:
+email_tech:
+
+# The following one is used by the boot to setup the initial appointed
+# block producer's signing key.  It is not used elsewhere. If you
+# don't think you'll ever be an Appointed Block Producer, you can
+# ignore this line.
+eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
