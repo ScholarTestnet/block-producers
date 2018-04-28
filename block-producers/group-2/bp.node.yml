@@ -2,19 +2,19 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-eosio_account_name: ssekhon
+eosio_account_name: bp.node
 
 # Authority (Required)
 eosio_initial_authority:
   owner:
     threshold: 1
     keys:
-    - public_key: EOS8Ft5Z3UJ2szTnqHEshP1aGXpmwqciHWCrPsNvKriYbK2u4RDqp
+    - public_key: EOS67YjfqqwjuLy4XKpSbWoh9CVhCKNFGK1wTnhUviQr2RrJdBhqV
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: EOS8Ft5Z3UJ2szTnqHEshP1aGXpmwqciHWCrPsNvKriYbK2u4RDqp
+    - public_key: EOS6PKrojxsAatFVY6bMm6Teu4jq7inBuwaga874Mhiciqq6RnLAM
       weight: 1
   recovery:
     threshold: 1
