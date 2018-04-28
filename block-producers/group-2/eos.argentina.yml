@@ -2,7 +2,7 @@
 # https://github.com/ScholarTestnet
 
 # Block Producer Account (Required)
-eosio_account_name: eos.argentina
+eosio_account_name: eosargentina
 
 # Authority (Required)
 eosio_initial_authority:
