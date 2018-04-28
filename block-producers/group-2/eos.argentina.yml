@@ -1,0 +1,64 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: eos.argentina
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS6WXDy3iyVZTRfBgoqpxokDNJwDsYuRpHxhaHz6xhNN81QeraNx
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS6WXDy3iyVZTRfBgoqpxokDNJwDsYuRpHxhaHz6xhNN81QeraNx
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: n3.eosargentina.io
+eosio_https_port: 8888
+eosio_p2p_host:  n3.eosargentina.io
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: https://twitter.com/eosargentina
+social_telegram: 
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: 
+
+# Geographic Location (Optional)
+latitude: 
+longitude: 
+
+# Organization (Optional)
+organization_name: EOS Argentina
+logo_url: https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmQ7i9Twbcku5QfbLHwabGowvMm7jHpvyEktDk2HemzZSQ
+timezone: 
+website: https://www.eosargentina.io/
+introduction_post_url: https://steemit.com/eosio/@eosargentina/eos-argentina-block-producer-candidate
+organization_tagline: 
+
+# Email (Optional)
+email_support: 
+email_abuse: 
+email_tech: 
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
