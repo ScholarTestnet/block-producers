@@ -37,11 +37,11 @@ pgp_public_key:
 
 # Social (Optional)
 social_twitter: https://twitter.com/eosargentina
-social_telegram: 
-social_facebook: 
-social_github: 
+social_telegram: https://t.me/joinchat/AUBfjQwHHMFPvshLX-kuRA
+social_facebook: https://www.facebook.com/groups/610832722588989
+social_github: https://github.com/eosargentina
 social_youtube: 
-social_keybase: 
+social_keybase: https://keybase.io/eosargentina
 
 # Geographic Location (Optional)
 latitude: 
