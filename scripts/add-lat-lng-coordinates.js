@@ -7,11 +7,8 @@ const glob = require('glob');
 const dns = require('dns');
 const request = require('request');
 
-// Customize
-const folder = process.argv[2] ? process.argv[2] : '**'
-
 // Iterate over each BP config
-glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).forEach((filepath, index, files) => {
+glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filepath, index, files) => {
   let rawConfig = fs.readFileSync(filepath, 'utf8');
   const config = yaml.safeLoad(rawConfig);
 

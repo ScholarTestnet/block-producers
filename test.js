@@ -12,15 +12,11 @@ test('validate block-producers configs', t => {
     const requiredFields = [
       'eosio_account_name',
       'eosio_initial_authority',
+      'eosio_appointed_block_producer_signing_key'
     ];
     testAccount(t, config.eosio_account_name, name)
     testUrl(t, config.logo_url, name + ' logo_url')
-    testUrl(t, config.social_twitter, name + ' twitter')
-    testUrl(t, config.social_telegram, name + ' telegram')
-    testUrl(t, config.social_facebook, name + ' facebook')
-    testUrl(t, config.social_github, name + ' github')
-    testUrl(t, config.social_youtube, name + ' youtube')
-    testUrl(t, config.social_keybase, name + ' keybase')
+    testSocial(t, config, name)
 
     // Required Fields (Fail)
     requiredFields.forEach(field => {
@@ -75,12 +71,9 @@ function testAccount(t, account_name) {
  * @param {string} name Debug Name
  */
 function testSocial(t, account_name, name) {
-  if (account_name) {
-    // No empty spaces
-    if (account_name.match(' ')) t.fail(`${name} => ${account_name} cannot contain white spaces`)
-
-    // Account must be fully qualified domain
-    if (!url.parse(account_name).protocol) t.fail(`${name} => social account must use a fully qualified domain URL`)
+  const socials = ['twitter', 'telegram', 'facebook', 'github', 'youtube', 'keybase', 'wechat', 'steem', 'slack']
+  for (const social of socials) {
+    testUrl(t, config['social_' + social], name + ' ' + social)
   }
 }
 

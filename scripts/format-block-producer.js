@@ -7,7 +7,7 @@ const glob = require('glob');
 const url = require('url')
 const {refactorSocial} = require('./refactor');
 
-glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(filepath => {
+glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach(filepath => {
   const {dir, name, base} = path.parse(filepath)
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
 
@@ -16,7 +16,12 @@ glob.sync(path.join(__dirname, '..', 'block-producers', '**', '*.yml')).forEach(
   fs.writeFileSync(filepath, `# EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
+testnet: true  # REQUIRED, one or the other, not both.
+# mainnet: true
+# Marking mainnet=true means we automatically disabling all the TESTNET features in the boot_sequence
+
 # Block Producer Account (Required)
+# The account you go by on the network
 eosio_account_name: ${config.eosio_account_name}
 
 # Authority (Required)
@@ -35,17 +40,19 @@ eosio_initial_authority:
     threshold: 1
     accounts:
     - permission:
-        actor: ${config.eosio_initial_authority.recovery ? config.eosio_initial_authority.recovery.accounts[0].permission.actor : 'eosio'}
+        actor: ${config.eosio_initial_authority.recovery.accounts[0].permission.actor || 'eosio'}
         permission: active
       weight: 1
 
+# BIOS Producer Signing Key (Required => eos-bios)
+# The following one is used by the BIOS Boot node to hook up initial
+# Appointed Block Producers keys (and potentially other participants in the launch)
+eosio_appointed_block_producer_signing_key: ${config.eosio_appointed_block_producer_signing_key || config.eosio_initial_authority.owner.keys[0].public_key}
+
 # Server Config (Optional)
-eosio_http_host: ${config.eosio_http_host || ''}
-eosio_http_port: ${config.eosio_http_port || ''}
-eosio_https_host: ${config.eosio_https_host || config.domain || ''}
-eosio_https_port: ${config.eosio_https_port || config.http || ''}
-eosio_p2p_host: ${config.eosio_p2p_host || config.domain || ''}
-eosio_p2p_port: ${config.eosio_p2p_port || config.p2p || ''}
+eosio_http: ${config.eosio_http_host ? `http://${config.eosio_http_host}:${config.eosio_http_port}` : ''}
+eosio_https: ${config.eosio_https_host ? `https://${config.eosio_https_host}:${config.eosio_https_port}` : ''}
+eosio_p2p: ${config.eosio_p2p_host ? `http://${config.eosio_p2p_host}:${config.eosio_p2p_port}` : ''}
 
 # Encryption (Optional)
 pgp_public_key: ${config.pgp_public_key || ''}
@@ -56,6 +63,11 @@ social_telegram: ${config.social_telegram || ''}
 social_facebook: ${config.social_facebook || ''}
 social_github: ${config.social_github || ''}
 social_youtube: ${config.social_youtube || ''}
+social_slack: ${config.social_slack || ''}
+social_wechat: ${config.social_wechat || ''}
+social_steem: ${config.social_steem || ''}
+
+# Potentially used for cryptographic operations. Please provide this one if using eos-bios
 social_keybase: ${config.social_keybase || ''}
 
 # Geographic Location (Optional)

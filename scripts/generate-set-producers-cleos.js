@@ -45,7 +45,7 @@ async function main(globpath, options = {}) {
 }
 
 // Params
-const folder = cli.input[0] || path.join(__dirname, '..', 'block-producers', 'scholar-testnet')
+const folder = cli.input[0] || path.join(__dirname, '..', 'block-producers')
 const limit = cli.flags.limit
 const globpath =  path.join(folder, '*.yml')
 

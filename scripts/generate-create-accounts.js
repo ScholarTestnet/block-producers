@@ -5,12 +5,9 @@ const path = require('path');
 const yaml = require('js-yaml');
 const glob = require('glob');
 
-// Customize
-const folder = process.argv[2] ? process.argv[2] : 'scholar-testnet'
-
 // Load Configurations
-const BLOCK_PRODUCERS_CONFIG = glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
-const DEVELOPERS_CONFIG = glob.sync(path.join(__dirname, '..', 'developers', folder, '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
+const BLOCK_PRODUCERS_CONFIG = glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
+const DEVELOPERS_CONFIG = glob.sync(path.join(__dirname, '..', 'developers', '*.yml')).map((filepath) => yaml.safeLoad(fs.readFileSync(filepath, 'utf8')))
 
 // Create eosio.token account
 const token_public_key = 'EOS6UcpST5Ms3vzpGcKJydmyjhTwA5AKsEhzaC8kEpYGFTkYukoyX'

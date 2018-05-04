@@ -6,7 +6,7 @@ const yaml = require('js-yaml');
 const glob = require('glob');
 const {refactorSocial} = require('./refactor');
 
-glob.sync(path.join(__dirname, '..', 'developers', '**', '*.yml')).forEach(filepath => {
+glob.sync(path.join(__dirname, '..', 'developers', '*.yml')).forEach(filepath => {
   const {dir, name, base} = path.parse(filepath)
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
 

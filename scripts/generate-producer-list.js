@@ -7,13 +7,10 @@ const glob = require('glob');
 const dns = require('dns');
 const request = require('request');
 
-// Customize
-const folder = process.argv[2] ? process.argv[2] : 'scholar-testnet'
-
 const producerList = [];
 let currentFileIndex = 0;
 
-glob.sync(path.join(__dirname, '..', 'block-producers', folder, '*.yml')).forEach((filepath, index, files) => {
+glob.sync(path.join(__dirname, '..', 'block-producers', '*.yml')).forEach((filepath, index, files) => {
   const config = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'));
 
   let {organization_name, longitude, latitude, website, eosio_account_name, logo_url, eosio_https_host, eosio_https_port, eosio_p2p_port, social_telegram, social_keybase} = config;
