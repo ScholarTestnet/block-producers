@@ -37,7 +37,7 @@ eosio_appointed_block_producer_signing_key: EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbiz
 # Server Config (Optional)
 eosio_http: 
 eosio_https: https://scholar.worbli.io:8888
-eosio_p2p: http://scholar.worbli.io:9876
+eosio_p2p: scholar.worbli.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 

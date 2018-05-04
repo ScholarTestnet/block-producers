@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS7wUEGtMFCVo4QA3Rica9wEsuVz6DAtEyN
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://scholarnet.wancloud.cloud:443
-eosio_p2p: http://scholarnet.wancloud.cloud:9876
+eosio_https: https://scholarnet.wancloud.cloud
+eosio_p2p: scholarnet.wancloud.cloud:9876
 
 # Encryption (Optional)
 pgp_public_key: 

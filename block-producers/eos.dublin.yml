@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS8hoSchLecy3WYM9SKPQiXso4awRidxyDH
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://testnet.eosdublin.io:443
-eosio_p2p: http://testnet.eosdublin.io:9876
+eosio_https: https://testnet.eosdublin.io
+eosio_p2p: testnet.eosdublin.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 

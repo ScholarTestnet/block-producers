@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS7ug5BoKPNtNhUdMzic2nwPvUNo25T9HVf
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://testnet.eosantpool.com:443
-eosio_p2p: http://testnet.eosantpool.com:9876
+eosio_https: https://testnet.eosantpool.com
+eosio_p2p: testnet.eosantpool.com:9876
 
 # Encryption (Optional)
 pgp_public_key: 

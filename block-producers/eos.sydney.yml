@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS6fsGq5Y58aK5woXJLm98BWF5qRtLybCPa
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://scholar.eosyd.io:443
-eosio_p2p: http://scholar.eosyd.io:9876
+eosio_https: https://scholar.eosyd.io
+eosio_p2p: scholar.eosyd.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 

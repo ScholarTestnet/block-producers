@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS7aFKPyBpi1eiGXDajNx3AnJcaV1D9iCm7
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://testnet.eoscannon.io:443
-eosio_p2p: http://testnet.eoscannon.io:9999
+eosio_https: https://testnet.eoscannon.io
+eosio_p2p: testnet.eoscannon.io:9999
 
 # Encryption (Optional)
 pgp_public_key: 

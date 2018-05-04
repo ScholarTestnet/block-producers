@@ -37,7 +37,7 @@ eosio_appointed_block_producer_signing_key: EOS6WXDy3iyVZTRfBgoqpxokDNJwDsYuRpHx
 # Server Config (Optional)
 eosio_http: 
 eosio_https: https://n3.eosargentina.io:8888
-eosio_p2p: http://n3.eosargentina.io:9876
+eosio_p2p: n3.eosargentina.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 

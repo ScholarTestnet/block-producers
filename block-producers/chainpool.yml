@@ -37,7 +37,7 @@ eosio_appointed_block_producer_signing_key: EOS7GEL7tGYSjLXJhnHhupeJY2grTz2U3SXw
 # Server Config (Optional)
 eosio_http: http://dev.chainpool.io:7780
 eosio_https: 
-eosio_p2p: http://dev.chainpool.io:7781
+eosio_p2p: dev.chainpool.io:7781
 
 # Encryption (Optional)
 pgp_public_key: 

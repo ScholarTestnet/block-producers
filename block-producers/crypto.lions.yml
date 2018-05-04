@@ -37,7 +37,7 @@ eosio_appointed_block_producer_signing_key: EOS8kPknDKhFSkUSQTb58j2thkKFSgLGSaz4
 # Server Config (Optional)
 eosio_http: 
 eosio_https: https://scholartestnet.cryptolions.io:8911
-eosio_p2p: http://scholartestnet.cryptolions.io:9900
+eosio_p2p: scholartestnet.cryptolions.io:9900
 
 # Encryption (Optional)
 pgp_public_key: 

@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS78uKLgYYSgQHXyJbbjDzXpibChtcYGKmo
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://scholarnet.eosnation.io:443
-eosio_p2p: http://scholarnet.eosnation.io:9876
+eosio_https: https://scholarnet.eosnation.io
+eosio_p2p: scholarnet.eosnation.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 

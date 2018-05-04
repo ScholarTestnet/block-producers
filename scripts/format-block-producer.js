@@ -50,9 +50,9 @@ eosio_initial_authority:
 eosio_appointed_block_producer_signing_key: ${config.eosio_appointed_block_producer_signing_key || config.eosio_initial_authority.owner.keys[0].public_key}
 
 # Server Config (Optional)
-eosio_http: ${config.eosio_http_host ? `http://${config.eosio_http_host}:${config.eosio_http_port}` : ''}
-eosio_https: ${config.eosio_https_host ? `https://${config.eosio_https_host}:${config.eosio_https_port}` : ''}
-eosio_p2p: ${config.eosio_p2p_host ? `http://${config.eosio_p2p_host}:${config.eosio_p2p_port}` : ''}
+eosio_http: ${config.eosio_http ? config.eosio_http.replace(':80', '') : ''}
+eosio_https: ${config.eosio_https ? config.eosio_https.replace(':443', '') : ''}
+eosio_p2p: ${config.eosio_p2p ? config.eosio_p2p.replace('http://', '') : ''}
 
 # Encryption (Optional)
 pgp_public_key: ${config.pgp_public_key || ''}

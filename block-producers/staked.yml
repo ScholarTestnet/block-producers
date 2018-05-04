@@ -36,8 +36,8 @@ eosio_appointed_block_producer_signing_key: EOS4tyhMnKdHZNNd7HaNTagL91FQZHHNi4LZ
 
 # Server Config (Optional)
 eosio_http: 
-eosio_https: https://eos.coinstakes.io:443
-eosio_p2p: http://eos.coinstakes.io:9876
+eosio_https: https://eos.coinstakes.io
+eosio_p2p: eos.coinstakes.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 
