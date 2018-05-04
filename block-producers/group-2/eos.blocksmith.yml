@@ -9,18 +9,18 @@ eosio_initial_authority:
     keys:
     - public_key: EOS5QvrvBadVCt814y4mAUZKibe4B1EhJEe7GvU48HSGE4ATUYZyo
       weight: 1
-   active:
-     threshold: 1
-     keys:
-   -  public_key: EOS5QvrvBadVCt814y4mAUZKibe4B1EhJEe7GvU48HSGE4ATUYZyo
-      weight: 1
-   recovery:
-    threshold: 1
-    accounts:
-     - permission:
-        actor: eosio
-        permission: active
-       weight: 1
+ active:
+   threshold: 1
+   keys:
+   - public_key: EOS5QvrvBadVCt814y4mAUZKibe4B1EhJEe7GvU48HSGE4ATUYZyo
+     weight: 1
+ recovery:
+   threshold: 1
+   accounts:
+   - permission:
+     actor: eosio
+     permission: active
+     weight: 1
 
 #Server Config
 eosio_http_host: 45.33.52.252
@@ -35,9 +35,9 @@ pgp_public_key:
 
 # Social
 social_twitter: https://twitter.com/eosBlockSmith
-social_telegram:  https://t.me/joinchat/FwtiV0tU_Tl-orBNr-uQlw
-social_steemit:  https://steemit.com/@eosblocksmith
-social_medium:  https://medium.com/@eosBlockSmith
+social_telegram: https://t.me/joinchat/FwtiV0tU_Tl-orBNr-uQlw
+social_steemit: https://steemit.com/@eosblocksmith
+social_medium: https://medium.com/@eosBlockSmith
 social_facebook:
 social_github: https://github.com/eosBlockSmith
 social_youtube:
