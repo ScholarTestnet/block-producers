@@ -43,10 +43,12 @@ pgp_public_key: ${config.pgp_public_key || ''}
 
 # Social (Optional)
 social_twitter: ${config.social_twitter || ''}
-social_telegram: ${config.telegram_user || config.social_telegram || ''}
+social_telegram: ${config.social_telegram || ''}
 social_facebook: ${config.social_facebook || ''}
 social_github: ${config.social_github || ''}
 social_youtube: ${config.social_youtube || ''}
-social_keybase: ${config.keybase_user || config.social_keybase || ''}
+social_slack: ${config.social_slack || ''}
+social_wechat: ${config.social_wechat || ''}
+social_steem: ${config.social_steem || ''}
 `)
 })
