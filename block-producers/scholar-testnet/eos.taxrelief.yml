@@ -1,0 +1,64 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: eos.taxrelief
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS7FdJNiFRQDLKqqEXzkfqiHuNvRtbBcsVJsYijQeUn6YRytBZNd
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS7FdJNiFRQDLKqqEXzkfqiHuNvRtbBcsVJsYijQeUn6YRytBZNd
+      weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host: 
+eosio_http_port: 
+eosio_https_host: testnet.eostaxrelief.com
+eosio_https_port: 443
+eosio_p2p_host: testnet.eostaxrelief.com
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: 
+social_telegram: https://t.me/EosTaxRelief
+social_facebook: 
+social_github: 
+social_youtube: 
+social_keybase: https://keybase.io/abhinavkumar
+
+# Geographic Location (Optional)
+latitude:
+longitude:
+
+# Organization (Optional)
+organization_name: EOS Tax Relief
+logo_url: https://eostaxrelief.com/wp-content/uploads/2018/05/EOSTaxReliefLogo.jpg
+timezone: EST
+website: https://www.eostaxrelief.com
+introduction_post_url: 
+organization_tagline: 
+
+# Email (Optional)
+email_support: robin.hood@eostaxrelief.com
+email_abuse: robin.hood@eostaxrelief.com
+email_tech: robin.hood@eostaxrelief.com
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
