@@ -1,7 +1,12 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
+testnet: true  # REQUIRED, one or the other, not both.
+# mainnet: true
+# Marking mainnet=true means we automatically disabling all the TESTNET features in the boot_sequence
+
 # Block Producer Account (Required)
+# The account you go by on the network
 eosio_account_name: eos.cafe
 
 # Authority (Required)
@@ -24,13 +29,15 @@ eosio_initial_authority:
         permission: active
       weight: 1
 
+# BIOS Producer Signing Key (Required => eos-bios)
+# The following one is used by the BIOS Boot node to hook up initial
+# Appointed Block Producers keys (and potentially other participants in the launch)
+eosio_appointed_block_producer_signing_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+
 # Server Config (Optional)
-eosio_http_host: 
-eosio_http_port: 
-eosio_https_host: eoscal.wxrepository.ca
-eosio_https_port: 443
-eosio_p2p_host: eoscal.wxrepository.ca
-eosio_p2p_port: 9876
+eosio_http: 
+eosio_https: https://eoscal.wxrepository.ca:443
+eosio_p2p: http://eoscal.wxrepository.ca:9876
 
 # Encryption (Optional)
 pgp_public_key: 
@@ -41,6 +48,11 @@ social_telegram: https://t.me/eoscafe
 social_facebook: 
 social_github: https://github.com/swandoyo/EOS-Cafe
 social_youtube: https://www.youtube.com/channel/UCRAk7pQm_i2i3P0NoC3KRIA/videos
+social_slack: 
+social_wechat: 
+social_steem: 
+
+# Potentially used for cryptographic operations. Please provide this one if using eos-bios
 social_keybase: https://keybase.io/eoscalgary
 
 # Geographic Location (Optional)

@@ -1,7 +1,12 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
+testnet: true  # REQUIRED, one or the other, not both.
+# mainnet: true
+# Marking mainnet=true means we automatically disabling all the TESTNET features in the boot_sequence
+
 # Block Producer Account (Required)
+# The account you go by on the network
 eosio_account_name: eosargentina
 
 # Authority (Required)
@@ -24,13 +29,15 @@ eosio_initial_authority:
         permission: active
       weight: 1
 
+# BIOS Producer Signing Key (Required => eos-bios)
+# The following one is used by the BIOS Boot node to hook up initial
+# Appointed Block Producers keys (and potentially other participants in the launch)
+eosio_appointed_block_producer_signing_key: EOS6WXDy3iyVZTRfBgoqpxokDNJwDsYuRpHxhaHz6xhNN81QeraNx
+
 # Server Config (Optional)
-eosio_http_host: 
-eosio_http_port: 
-eosio_https_host: n3.eosargentina.io
-eosio_https_port: 8888
-eosio_p2p_host:  n3.eosargentina.io
-eosio_p2p_port: 9876
+eosio_http: 
+eosio_https: https://n3.eosargentina.io:8888
+eosio_p2p: http://n3.eosargentina.io:9876
 
 # Encryption (Optional)
 pgp_public_key: 
@@ -41,6 +48,11 @@ social_telegram: https://t.me/joinchat/AUBfjQwHHMFPvshLX-kuRA
 social_facebook: https://www.facebook.com/groups/610832722588989
 social_github: https://github.com/eosargentina
 social_youtube: 
+social_slack: 
+social_wechat: 
+social_steem: 
+
+# Potentially used for cryptographic operations. Please provide this one if using eos-bios
 social_keybase: https://keybase.io/eosargentina
 
 # Geographic Location (Optional)

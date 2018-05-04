@@ -1,7 +1,12 @@
 # EOS Scholar - Block Producer
 # https://github.com/ScholarTestnet
 
+testnet: true  # REQUIRED, one or the other, not both.
+# mainnet: true
+# Marking mainnet=true means we automatically disabling all the TESTNET features in the boot_sequence
+
 # Block Producer Account (Required)
+# The account you go by on the network
 eosio_account_name: eos.union
 
 # Authority (Required)
@@ -24,13 +29,15 @@ eosio_initial_authority:
         permission: active
       weight: 1
 
+# BIOS Producer Signing Key (Required => eos-bios)
+# The following one is used by the BIOS Boot node to hook up initial
+# Appointed Block Producers keys (and potentially other participants in the launch)
+eosio_appointed_block_producer_signing_key: EOS6kkhz7j4m2SYzbSzwpvPoQPWVWt1DFYJvjuyJUTY78MxGsG7hc
+
 # Server Config (Optional)
-eosio_http_host: 
-eosio_http_port: 
-eosio_https_host: testnet.eos.ren
-eosio_https_port: 443
-eosio_p2p_host: testnet.eos.ren
-eosio_p2p_port: 9876
+eosio_http: 
+eosio_https: https://testnet.eos.ren:443
+eosio_p2p: http://testnet.eos.ren:9876
 
 # Encryption (Optional)
 pgp_public_key: 
@@ -41,6 +48,11 @@ social_telegram: https://t.me/heipacker
 social_facebook: 
 social_github: 
 social_youtube: 
+social_slack: 
+social_wechat: 
+social_steem: 
+
+# Potentially used for cryptographic operations. Please provide this one if using eos-bios
 social_keybase: https://keybase.io/heipacker
 
 # Geographic Location (Optional)
